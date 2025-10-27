@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registerpage</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:250px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text], select{
+width:250px;
+height:40px;
+font-size:30px;
+
+}
+input[type=checkbox]{
+margin-right:330px;
+
+}
+input[type=submit]{
+
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:30px;
+}
+
+</style>
+	
+</head>
+
+
+<body>
+<h1>Register</h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p>Please fill in this form to create an account.</p></center>
+
+	<form method="POST" action="register.php">
+<br>
+		<label>firstname:</label> <input type="text" name="firstname"><br><br>
+                <label>lastname:</label> <input type="text" name="lastname"><br><br>
+
+<label>Telephone:</label> <input type="tel" name="telephone"><br><br>
+<label>Address:</label> <input type="text" name="address"><br><br>
+<label>Identity Number:</label> <input type="tel" name="identity" ><br><br>
+<label>Dob:</label><input type="date" name="dob"><br><br>
+<label>Gender:</label><select id ="gender" name="gender">
+<option value ="Male"> Male</option>
+<option value ="Female">Female </option>
+</select>
+<br><br>
+<label>Email:</label> <input type="email" name="email"><br><br>
+<label>Username:</label> <input type="text" name="username"><br><br>
+<label>Password:</label> <input type="password" name="password">
+<p>**I accept the <a href="Terms of use.html">terms of use</a>  and <a href="Privacy policy.html">privacy policy </a>:<input type="checkbox" name="policyandterms"></p>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Register">
+
+	</form>
+<center><p>Already have an account?<a href="Login.html">Login</a></p></center>
+<br>
+<img src="images/squarrel medicine.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/turtle injury.jpg" width="656" height="300">
+</body>
+</html>

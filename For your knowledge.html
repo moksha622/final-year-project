@@ -1,0 +1,362 @@
+<html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="test.css"></link>
+
+ <style>
+
+body {
+  font-family: "Lato", sans-serif;
+padding: 0;
+margin: 0;
+background-image:url("");
+}
+
+.image-container {
+  background-image: url("images/elephant.jpeg");
+  background-size: cover;
+  position: relative;
+  height: 150px;
+}
+.text {
+  background-color: orange;
+  color: black;
+  font-size: 4vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.dropbtn {
+ 
+  color: #818181;
+  background:none;
+  font-size: 25px;
+  border: none;
+transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown a{
+padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #81c644;
+}
+
+.container {
+	max-width: 300rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.wrapper{
+  margin-top: 5%;
+}
+
+
+.para{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.para .para_member{
+  background: #f4eecc;
+  margin: 5px;
+  margin-bottom: 10px;
+  width: 1300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+color:#889429;
+}
+
+
+
+.para .para_member p.role{
+  color: #ccc;
+  
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.para .para_member .para_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.para .para_member .para_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+h4{
+background:none;
+text-align:center;
+padding: 14px 16px;
+margin-left:550px;
+margin-right:550px;
+margin-top:50px;
+margin-bottom:50px;
+color: white;
+}
+h5{
+background:none;
+text-align:center;
+padding: 10px 16px;
+margin-left:500px;
+margin-right:500px;
+margin-top:50px;
+margin-bottom:50px;
+}
+h6{
+background:none;
+text-align:center;
+padding: 14px 16px;
+text-size:40px;
+margin-top:50px;
+margin-bottom:50px;
+
+}
+h7{
+
+background:none;
+color:white;
+
+font-family: Arial;
+font-size: 30px;
+margin-bottom:20px;
+}
+div.footerpart{
+background-image:url("images/footer background.jpg");
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+color:black;}
+
+
+</style>
+ </head>
+
+ <body>
+<center>
+<div class="image-container">
+  <div class="text">For your knowledge</div>
+</div>
+</center>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Wild life healthcare for sri lanka website.html">Home</a>
+  <a href="About us.html">About us</a>
+  <a href="For your knowledge.html">For your knowledge</a>
+  
+<div class="dropdown">
+  <button class="dropbtn"><a>For wild life</a><image src="images/drop.jpg"></image></button>
+  <div class="dropdown-content">
+    <a href="How to treat to wild animals.html">How to treat to wild animals</a>
+    <a href="Protect wild animals health.html">Protect wild animals health</a>
+    <a href="Advantages of wild animals.html">Advantages of wild animals</a>
+  </div>
+
+</div>
+<a href="Pay for.html">Pay for</a>
+
+</div>
+
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<br><br><br>
+<div class="wrapper">
+ <div class="para">
+    <div class="para_member">
+      <div class="para_img">
+        <img src="images/foot sign.png" alt="para_image">
+
+      </div>
+<br><br>
+<p style="text-align:justify; font-family:  'Lato', sans-serif; font-size:15px;">Sri Lanka is second to none in terms of its biodiversity and can be considered the best for big game safaris outside the African continent. As bold a statement as that may be, Sri Lanka’s wildlife credentials speak for itself.<br><br>Wildlife in Sri Lanka<br>Sri Lanka’s wildlife is as varied as the island itself, ranging from elephants and leopards to marine life and a vast number of different birds, and Sri Lanka is now one of the best places in the world to see elephants, including leopards. With 12% of the country designated for wildlife protection, it is easy to get a taste of Sri Lankan wildlife: safari parks and sanctuaries, particularly in the southern and central zones, offer the easiest way to see animals in their natural habitat. Stay alert for a sighting of the endangered leopard; take your time as you watch the elephants feeding and washing in a tank or lagoon, or walk quietly along the beaches of the west and south coast near to marine turtles as they lay their eggs.<br>Birds of Sri Lanka<br>Birdwatching in Sri Lanka is a delight for birders. 
+<span id="dots">...</span><span id="more">The island’s isolation and tropical climate are responsible for attracting an incredibly diverse range of birds of more than 400 species. Almost 200 migrant species descend on the country each year having flown south for the winter, and there are 33 endemic birds in Sri Lanka. For more information, see our page on birdwatching in Sri Lanka.102 terrestrial mammals have so far been discovered on the island. 90 of them are indigenous species, of which 14 are endemic to Sri Lanka. Mammals are extensively distributed in the country due to the diverse climate, vegetation, altitude and geographic history of the island. Many travellers come to Sri Lanka hoping to see elephants, the island’s most iconic animal – visit one of the national parks and see them moving in herds in the wild, or visit the Millennium Elephant Foundation to learn more about the role elephants play in Sri Lankan culture.Sri Lanka’s elusive leopard can be seen at many national parks, most notably Yala National Park, which has the highest population density of leopards in the world. Go to tranquil Willpattu for a sloth bear sighting, or see toque macaque, grey langur and purple-faced leaf monkeys when you meet the monkeys in their also.leopard, elephant – are known as the country’s great wildlife attractions. These species are just some of the country’s plethora of wild species of fauna. It is also renowned as a birder’s paradise with an array of endemic, migratory, and resident avifauna found in its 70 Important Bird Areas strewn across its diverse landscape. Sri Lanka is also famous for its abundance of exotic flora.
+Amongst its many wildlife attractions, none have garnered such awe as those pertaining to the largest land mammal in the world – the elephant. Sri Lanka is home to the largest seasonally recurring concentration of wild elephants found anywhere in the world. This phenomenon known simply as The Gathering takes place in the country’s willpaththu National Park which is renowned the world over for being one of the best locations to spot elephant herds and observe their behaviour. Herds as large as 400 elephants have been recorded here in the past. Lonely Planet listed this occurrence as one of the Top Ten Wildlife Spectacles in the world. Sri Lankan elephants can also be spotted in several of the country’s national parks including the Udawalawe National Park which is the only place in the world that guarantees an elephant sighting on each visit.For nature lovers, Bird watching in Sri Lanka is a must. There are many places in Sri Lanka where you can go bird watching. Kumana is one such great place. Yala, willpaththu and Udawalawe National Parks are other important Bird, mammals, amphibians and reptiles watching locations in Sri Lanka. In addition, you can see Birds throughout the country in pockets of forests, lakes, lagoons, and riversides during your travels. 
+Toque Macaque also known as the rilewa in Sinhala language is an old world small sized monkey endemic to Sri Lanka. Toque macaque are listed as endangered due to habitat destruction and hunting.
+Sri Lankan Sloth Bear found in lowland dry forests of the Sri Lankan Island. Yala National Park pf Sri Lanka is the most famous place to spot Sri Lankan Sloth Bear, Sri Lankan Leopard and Sri Lankan Elephant.
+Sri Lankan Flying Snake known as Chrysopelea taprobanica is a species of gliding snake distributed Sri Lanka and India. The snake is known as dangara dandaa in local language, found in dry zone lowlands national parks of Sri Lanka.
+Sri Lankan Krait is the highly venomous species of elapid snake, endemic to the island of Sri Lanka. The Sri Lankan krait is nocturnal and feeds mainly on small reptiles, mammals and frogs.
+Grizzled Giant Squirrel is a large tree squirrel native to highland riparian forests of Sri Lanka. Ratufa macroura also found in Kerala and Tamil Nadu state of India. In Addition, Sri Lanka Island is home to two species of crocodiles, giant python, Sri Lanka wood pigeon, Crested serpent eagle and white-bellied sea eagle.
+Red Faced Malkoha species of bird is endemic to Sri Lanka and member of the cuckoo family. They are found in the Sinharaja Forest Reserve and Sri Lanka lowland rain forests ecoregion.
+Sri Lankan reptiles count nearly 209 known reptile species with great diversity. These reptiles consist of snakes, lizards, crocodiles, turtles and tortoises. Almost 125 species of them are endemic to Sri Lanka.
+Approximately 32 species of reptiles inclusive of foreign species exhibit in the Reptilium.
+Two types of Sri Lankan Crocodiles, Marsh Crocodile (Crocodylus patustris) and Estuarine Crocodile (Crocodylus porosus) with the Galapagos Giant Tortoise (Geochelone gigantea) are at the entrance of the Reptilium to welcome the visitors. Cuban Crocodile, Indian Gavial, False Gavial and three Dwarf crocodiles, the smallest crocodile species in the world enhance the value of the Crocodile collection.
+Tortoises and Terrapins live in harmony with Rhinoceros Iguanas and False Gavial. Snakes dwell in – house section of the Reptilium. Russell’s viper (Daboia russelli), Sri Lankan Cobra (Naja naja), Common Krait (Bungarus caeruleus), Ceylon Krait (Bangarus ceylonicus) and Hump Nosed Viper (Hypnale hypnale) are found in the zoo out of the seven species of highly poisonous snakes in Sri Lanka. Albino form of Sri Lankan Cobra also found here.
+Pythons with their gigantic size and elongated bodies astonish visitors.  Being a famous character in movie world Green Anacondas have drawn special attraction of the visitors, especially children.
+Even the indoor enclosures are made to receive sunlight and ventilation and therefore have facilitated snakes to live with nature.
+Sri Lanka Grey Hornbill is one of the endemic resident birds of Sri Lanka, found in forest habitats. These birds are omnivores and known as Alu Kadatta in the Sinhala Language of Sri Lanka.
+Almost 245 species of butterflies have been recorded in Sri Lanka, of which 26 species are endemic and 100 species are threatened.
+</span><button onclick="myFunction()" id="myBtn">Read more</button></p>
+
+    </div>
+  </div>
+</div>	
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<br><br><br>
+<div class="footerpart">
+<h3 align="center"><u><img src="images/contact details.jpg" ></img>&nbsp;<h7>Contact Details :</h7> </u></h3>
+<center>
+<h4><img src="images/main office.jpg" ></img>&nbsp;Main Office : </h4>
+
+<h5><img src="images/email.jpg" ></img>&nbsp;&nbsp;<h7>Mail Us :</h7> <a href="mailto:dheerandarinku@gmail.com">dheerandarinku@gmail.com</a></h5>
+<h5><img src="images/call.jpg" ></img>&nbsp;&nbsp;<h7>Call Now :</h7> <a href="callto:94465657623244">+94-465-657-623-244</a></h5>
+<h6><h7>Join with Us on:</h7> <img src="images/fb.jpg" ></img>&nbsp;&nbsp; <a href="https://m.facebook.com" style="color:blue;">https://www.facebook.com/YalaPark/</a> &nbsp;
+<img src="images/twitter.jpg" ></img>&nbsp;&nbsp;<a href="https://mobile.twitter.com/" style="color:blue;">https://mobile.twitter.com/yalaslanlk</a>&nbsp;<img src="images/whatsapp.jpg" ></img>&nbsp;&nbsp;<a href="www.whatsapp.com" style="color:blue;" >tel:+948567865</a>&nbsp;<img src="images/instergram.jpg" ></img>&nbsp;&nbsp;<a href="https:www.instergram.com/" style="color:blue;" >https://www.instagram.com/Yala_wildlife/</a>&nbsp;
+
+</h6>
+
+
+
+
+
+
+
+</center>
+<center><h7>2022 All Rights Reserved.Sri lankan Institute of Technology</h7></center>
+</div>
+
+
+
+
+ </body>
+</html>

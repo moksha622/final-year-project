@@ -1,0 +1,382 @@
+<html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="test.css"></link>
+
+ <style>
+
+body {
+  font-family: "Lato", sans-serif;
+padding: 0;
+margin: 0;
+background-image:url("");
+}
+
+.image-container {
+  background-image: url("images/elephant.jpeg");
+  background-size: cover;
+  position: relative;
+  height: 150px;
+}
+.text {
+  background-color: orange;
+  color: black;
+  font-size: 3.5vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.dropbtn {
+ 
+  color: #818181;
+  background:none;
+  font-size: 25px;
+  border: none;
+transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown a{
+padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #81c644;
+}
+
+.container {
+	max-width: 300rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+.wrapper{
+  margin-top: 5%;
+}
+
+
+.para{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.para .para_member{
+  background: #f4eecc;
+  margin: 5px;
+  margin-bottom: 10px;
+  width: 1300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+color:#889429;
+}
+
+.para .para_member p.role{
+  color: #ccc;
+  
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.para .para_member .para_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.para .para_member .para_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+h4{
+background:none;
+text-align:center;
+padding: 14px 16px;
+margin-left:550px;
+margin-right:550px;
+margin-top:50px;
+margin-bottom:50px;
+color: white;
+}
+h5{
+background:none;
+text-align:center;
+padding: 10px 16px;
+margin-left:500px;
+margin-right:500px;
+margin-top:50px;
+margin-bottom:50px;
+}
+h6{
+background:none;
+text-align:center;
+padding: 14px 16px;
+text-size:40px;
+margin-top:50px;
+margin-bottom:50px;
+
+}
+h7{
+
+background:none;
+color:white;
+
+font-family: Arial;
+font-size: 30px;
+margin-bottom:20px;
+}
+div.footerpart{
+background-image:url("images/footer background.jpg");
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+color:black;}
+
+
+</style>
+ </head>
+
+ <body>
+<center>
+<div class="image-container">
+  <div class="text">Protect wild animals health</div>
+</div>
+</center>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Wild life healthcare for sri lanka website.html">Home</a>
+  <a href="About us.html">About us</a>
+  <a href="For your knowledge.html">For your knowledge</a>
+  
+<div class="dropdown">
+  <button class="dropbtn"><a>Things to do</a><image src="images/drop.jpg"></image></button>
+  <div class="dropdown-content">
+    <a href="How to treat to wild animals.html">How to treat to wild animals</a>
+    <a href="Protect wild animals health.html">Protect wild animals health</a>
+    <a href="Advantages of wild animals.html">Advantages of wild animals</a>
+  </div>
+
+</div>
+<a href="Pay for.html">Pay for</a>
+
+</div>
+
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<br><br><br>
+<div class="wrapper">
+ <div class="para">
+    <div class="para_member">
+      <div class="para_img">
+        <img src="images/foot sign.png" alt="para_image">
+
+      </div>
+<br><br>
+<p style="text-align:justify; font-family:  'Lato', sans-serif; font-size:15px;">Sri Lanka is a biodiversity hotspot with an abundance of ecosystems and many endemic species. Its animals and plants are greatly threatened by human activity and the impacts of climate change, putting the world at risk of losing this irreplaceable wealth of wildlife. If we want to preserve Sri Lanka’s biodiversity, actions need to be taken on all levels: by the government, by academia, by NGOs, and by everyone living on the island and around the globe.
+Sri Lanka teems with life. Apart from 21 million humans, it is home to thousands of species of animals with plants. From mangroves to mud flats, rivers to rainforests, dry grasslands to mountains, and coral reefs to mixed evergreens, the tiny island hosts a vast variety of ecosystems, including man-made environments like paddies and plantations.
+Even though the forest cover has decreased and human settlements encroach further into habitats every day, the abundance of wildlife is still immense. Together with India’s Western Ghats, Conservation International declared Sri Lanka one of 36 biodiversity hotspots that would reap maximum benefit from preservation efforts.
+Many of Sri Lanka’s animals are endemic species that are only found here; for example, 16% of mammals, as well as many other animal species. The number of unique species is so large that their extinction would represent an irreplaceable loss: and they are already under threat.
+<br>Endangered Wildlife<br>
+According to the IUCN’s Red List, Sri Lanka has 66 critically endangered and 102 endangered animal species. Among them are charismatic flagship species like the Sri Lankan elephant or the leopard, but also lesser-known animals such as the pangolin, numerous frog species, crustaceans, or insects.
+Sri Lanka’s National Red List of 2012 published by the Biodiversity Secretariat of the (then) Ministry of Environment and National Herbarium even has numbers that are significantly higher: according to it, 122 species of indigenous inland vertebrates, i.e., one in six, are critically endangered.
+<span id="dots">...</span><span id="more"><br>The Human Threat<br>
+Sri Lanka already suffers the impacts of climate change. Coastal ecosystems are beleaguered by sea level rise, ocean acidification, and storm surges, while terrestrial ecosystems are damaged by slow- and sudden-onset weather events like droughts, floods, and landslides.
+More than any environmental factor, however, anthropogenic activity threatens the diverse ecosystems of Sri Lanka. Humans encroach into or destroy the habitats of countless species through pollution, infrastructural development, agriculture, industry, and unsustainable tourism. Wherever humans’ clear forests, build roads, and expand plantations without careful consideration, some part of the ecosystem is destroyed.
+In some cases, the degradation, fragmentation or outright loss of habitats leads to open human-animal conflict: elephants raid paddy fields or trample villages while leopards are lynched by enraged townsfolk. Other species die more quiet deaths, like the tree frogs or the freshwater crabs threatened by extinction from habitat loss and industrial pollution.
+<br>Humans and Elephants<br>
+Elephants are probably the most iconic and culturally significant species of wildlife in Sri Lanka. Within Asia, Sri Lanka has the highest density of elephants and is home to a unique subspecies, the Sri Lankan Elephant (elephants maximus maximus). They are the largest of the three subspecies of Asian Elephant, with distinctive depigmentation patches and a low occurrence of tuskers (only 7% of males and 2% of the total population).
+Elephants are a prime example for the importance of conservation measures. In the past, the island might have been home to up to 20,000 elephants: today, their population has dropped to a mere 2,000-6,000 individuals. Even though tuskers are very rare and ivory therefore doesn’t play a huge role, an unknown number of calves gets poached or kidnapped every year for the captive trade market: but by far the largest threat to elephants are land-use conflicts with humans.
+Up to 200 elephants and at least 80 people lose their lives in such encounters every year. As human settlements and farmland encroach farther and farther into elephant territory, their habitat has dwindled and the whole subspecies is now classified as endangered.
+<br>Humans and Leopards<br>Another flagship species for biodiversity in Sri Lanka is the leopard. While leopards do not populate the island in large numbers (750-950 individuals according to a 2015 study), many researchers consider them a keystone species that has a higher importance for the ecosystem than pure numbers would suggest.
+Leopards are wide-ranging and exist in all of Sri Lanka’s habitat types, from montane to lowland and arid to wet. As apex predators, they have a long and largely peaceful relationship with humans, although human-leopard conflict has erupted in an ugly fashion over the last years, with villagers beating leopards to death and a series of leopard killings in the tea estate areas.
+For conservation purposes, leopards can be considered an umbrella species, because their wide-ranging habitat overlaps with that of many other species (for example that of 86% of all other Sri Lankan mammal species). If leopards are allowed to roam the island, the protection of their habitat and the establishment of forest corridors will also protect these other species.<br>Protecting Sri Lanka’s Wildlife<br>
+Sri Lanka has committed itself to preserving biodiversity with several international conventions and national laws, but their enforcement is not consistent. The country joined the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 1979, the Ramsar Convention in 1990, and the Convention on Biological Diversity (CBD) in 1994. On a national level, biodiversity and wildlife conservation rest mainly on the 1937 Fauna and Flora Protection Ordinance (FFPO), supplemented by other domestic laws like the Forest Ordinance, the National Wilderness Heritage Act, the National Environment.
+<br>The process of the Department of Wildlife Conservation<br>
+The Department of Wildlife Conservation has been entrusted with the responsibility of Long-term protecting and preserving the wildlife resources found within the territory of Sri Lanka including its coastal belt and the legal responsibility for the establishment and 
+Management of wildlife reservation arears under the Fauna and Flora Ordinance, too, has Been assigned to the Department.Reservations of the Department of Wildlife Conservation The total extent of the reservations established by the Department of Wildlife 
+Conservation stood at 14 per cent of the total land area and it exceeds 10,000 Square kilometres.The Wild animals Conservation project has an award-winning approach to protecting wild animals which are found in the national parks and local communities.
+Volunteers work alongside the local team to support their initiatives to help elephants and communities live together in harmony. They will assist their research to increase the understanding and knowledge of the 300+ elephants and other wild animals including sloth bears, leopards and jungle cats, living in the surrounding area, which helps to protect them for the future.Volunteers will visit the forest national parks during volunteer placement and can explore ancient cities, colourful temples and beautiful wild countryside in free time.
+This is a  inspirational project to help wild elephants and wild animals conservation in Sri Lanka.Volunteer role: What will I be doing?The project is unique in Sri Lanka as the award-winning model focuses on researching wild elephants whilst working with the community to help them live peacefully together. It helps the local farmers live alongside over 300 wild elephants and other wild animals by running initiatives to reduce potential conflict.
+Volunteer tasks may include:Elephant monitoring and observations – recording data on behaviour, range and habitat use Research treks to collect data on elephant foraging, dung research and map trails
+Checking camera and sand traps to gather details on mammals – setting up traps then examining tracks and photos of sloth bear, leopard plus fishing, jungle and rusty spotted cats 
+Conducting footprint and dropping surveys along stream banks and paddy fields to collect data on the distribution of small mammals Participating in bird and wildlife diversity and abundance surveys 
+Helping to maintain the project’s butterfly sanctuary and identify butterflies Monitoring and maintaining solar powered community electric fences which deter elephants Interviewing villagers to document human-elephant conflict on their houses and farms
+Assisting villagers in planting, harvesting and monitoring orange trees which are elephant deterrents, creating natural barriers to protect the community’s farmland and reducing human-elephant conflict in the area
+“Volunteers help to the projects wildlife research and conservation efforts are invaluable. Volunteers contribute their knowledge, passion, and experience in support of the society’s work to improve understanding and inspire change, not only in their own lives but also on those whose lives they touch.” Ravi – Project Founder
+<br>Typical day<br>
+When you arrive, you will receive an induction to the volunteer role and project.Volunteers work 5 days a week (Monday to Friday) from approximately 9am to 7pm with around a 2-hour break for lunch.
+The project is located a 10-minute drive from the national parks and research is conducted in the communities surrounding the national parks. Volunteers may walk for up to 5km a day to reach the research sites and may also travel in the project vehicle to reach more remote locations. You have weekends off and there are plenty of free time activities to enjoy in the area.
+Other volunteers-There are usually 6-15 volunteers with a maximum of 30, but this varies throughout the year. They work alongside local and international staff.
+<br>Conclusion<br>
+Sri Lanka has a wide range of unique animal species. As in many places all over the world, they are threatened by the impacts of climate change and especially by human activity: the encroachment into and destruction of their habitats, as well as poaching, direct land-use conflict, and various forms of pollution.
+If Sri Lanka’s wealth of wildlife is lost, the world will be poorer, and many human livelihoods will disappear together with the animal species they depend on. The huge biodiversity of the island needs to be protected by laws that are strong on paper and strong in practise: they need to be implemented with clear responsibility, adequately funded, and enforced by well-trained personnel.
+Beyond that, capacities and awareness need to be built in poor and vulnerable human communities, and economic diversification offered to prevent an unsustainable use of ecosystem resources. Civil society and NGOs need to work in tandem to cause a shift toward sustainable consumption, and a healthy coexistence with the animals that share this world with us.
+</span><button onclick="myFunction()" id="myBtn">Read more</button></p>
+
+    </div>
+  </div>
+</div>	
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<br><br><br>
+<div class="footerpart">
+<h3 align="center"><u><img src="images/contact details.jpg" ></img>&nbsp;<h7>Contact Details :</h7> </u></h3>
+<center>
+<h4><img src="images/main office.jpg" ></img>&nbsp;Main Office : </h4>
+
+<h5><img src="images/email.jpg" ></img>&nbsp;&nbsp;<h7>Mail Us :</h7> <a href="mailto:dheerandarinku@gmail.com">dheerandarinku@gmail.com</a></h5>
+<h5><img src="images/call.jpg" ></img>&nbsp;&nbsp;<h7>Call Now :</h7> <a href="callto:94465657623244">+94-465-657-623-244</a></h5>
+<h6><h7>Join with Us on:</h7> <img src="images/fb.jpg" ></img>&nbsp;&nbsp; <a href="https://m.facebook.com" style="color:blue;">https://www.facebook.com/YalaPark/</a> &nbsp;
+<img src="images/twitter.jpg" ></img>&nbsp;&nbsp;<a href="https://mobile.twitter.com/" style="color:blue;">https://mobile.twitter.com/yalaslanlk</a>&nbsp;<img src="images/whatsapp.jpg" ></img>&nbsp;&nbsp;<a href="www.whatsapp.com" style="color:blue;" >tel:+948567865</a>&nbsp;<img src="images/instergram.jpg" ></img>&nbsp;&nbsp;<a href="https:www.instergram.com/" style="color:blue;" >https://www.instagram.com/Yala_wildlife/</a>&nbsp;
+
+</h6>
+
+
+
+
+
+
+
+</center>
+<center><h7>2022 All Rights Reserved.Sri lankan Institute of Technology</h7></center>
+</div>
+
+
+
+
+ </body>
+</html>

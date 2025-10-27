@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>add medicine page</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:250px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text], select{
+width:250px;
+height:40px;
+font-size:30px;
+
+}
+input[type=checkbox]{
+margin-right:330px;
+
+}
+input[type=submit]{
+
+width:480px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:30px;
+}
+p2{
+font-size:30px;
+color:red;
+}
+</style>
+	
+</head>
+
+
+<body>
+<h1>Add details of wild animals' medicine items to system for ease of wildlife health related activities.</h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p>Please fill in this form to add details of medicines to the system.</p></center>
+
+	<form method="POST" action="add medicine.php">
+<br>
+		<label><p2>medicine's--></p2><br>Name:</label> <input type="text" name="name"><br><br>
+                <label>Reason for use:</label> <input type="time" name="reason"><br><br>
+<label>Date of uploading information about medicine:</label> <input type="date" name="date"><br><br>
+<label>Quantity:</label> <input type="text" min="1" max="1000" name="quantity"><br><br>
+<label>How the medicine should be transporte:</label><select id ="transport" name="transport">
+<option value ="Thicken the ice in the boxes">Thicken the ice in the boxes</option>
+<option value ="As a liquid in the ice in the boxes">As a liquid in the ice in the boxes</option>
+<option value ="As solids and liquids in the ice in the boxes">As solids and liquids in the ice in the boxes</option>
+<option value ="Thicken in a dry and cool pan">Thicken in a dry and cool pan</option>
+<option value ="As a liquid in dry and cool pans">As a liquid in dry and cool pans</option>
+<option value ="As solids and liquids in dry and cool patties">As solids and liquids in dry and cool patties</option>
+<option value ="Put in bottles in any solid way">Put in bottles in any solid way</option>
+<option value ="Put in bottles in any liquid form">Put in bottles in any liquid form</option>
+<option value ="Both solid and liquid in any form">Both solid and liquid in any form</option>
+<option value ="In boxes at normal ambient temperature">In boxes at normal ambient temperature</option>
+<option value ="As a liquid at room temperature">As a liquid at room temperature</option>
+<option value ="As boxes and liquids at normal ambient temperature">As boxes and liquids at normal ambient temperature</option>
+</select><br><br>
+<label>Contact number of the place were  this medicine is available:</label> <input type="tel" name="contact"><br><br>
+<label>Email address of the place were  this medicine is available:</label> <input type="email" name="email"><br><br>
+<label>Name of the place were  this medicine is available:</label> <input type="text" name="place"><br><br>
+<label>Expiration date:</label> <input type="date" name="expire"><br><br>
+<label>Item number:</label> <input type="number" min="1" max="1000" name="item"><br><br>
+<p>**I accept the the details all are correct.:<input type="checkbox" name="policyandterms"></p>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Add medicine details">
+
+	</form><br>
+<img src="images/medicine cubs.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/bird medical 2.jpg" width="656" height="300">
+<center><p>Always Do things to protect wild animals.</p></center>
+
+</body>
+</html>

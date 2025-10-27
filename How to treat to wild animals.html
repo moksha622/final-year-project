@@ -1,0 +1,378 @@
+<html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="test.css"></link>
+
+ <style>
+
+body {
+  font-family: "Lato", sans-serif;
+padding: 0;
+margin: 0;
+background-image:url("");
+}
+
+.image-container {
+  background-image: url("images/elephant.jpeg");
+  background-size: cover;
+  position: relative;
+  height: 150px;
+}
+.text {
+  background-color: orange;
+  color: black;
+  font-size: 3.5vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.dropbtn {
+ 
+  color: #818181;
+  background:none;
+  font-size: 25px;
+  border: none;
+transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown a{
+padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #81c644;
+}
+
+.container {
+	max-width: 300rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+.wrapper{
+  margin-top: 5%;
+}
+
+
+.para{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.para .para_member{
+  background: #f4eecc;
+  margin: 5px;
+  margin-bottom: 10px;
+  width: 1300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+color:#889429;
+}
+
+
+
+.para .para_member p.role{
+  color: #ccc;
+  
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.para .para_member .para_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.para .para_member .para_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+h4{
+background:none;
+text-align:center;
+padding: 14px 16px;
+margin-left:550px;
+margin-right:550px;
+margin-top:50px;
+margin-bottom:50px;
+color: white;
+}
+h5{
+background:none;
+text-align:center;
+padding: 10px 16px;
+margin-left:500px;
+margin-right:500px;
+margin-top:50px;
+margin-bottom:50px;
+}
+h6{
+background:none;
+text-align:center;
+padding: 14px 16px;
+text-size:40px;
+margin-top:50px;
+margin-bottom:50px;
+
+}
+h7{
+
+background:none;
+color:white;
+
+font-family: Arial;
+font-size: 30px;
+margin-bottom:20px;
+}
+div.footerpart{
+background-image:url("images/footer background.jpg");
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+color:black;}
+
+
+</style>
+ </head>
+
+ <body>
+<center>
+<div class="image-container">
+  <div class="text">How to treat to wild animals</div>
+</div>
+</center>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Wild life healthcare for sri lanka website.html">Home</a>
+  <a href="About us.html">About us</a>
+  <a href="For your knowledge.html">For your knowledge</a>
+  
+<div class="dropdown">
+  <button class="dropbtn"><a>Things to do</a><image src="images/drop.jpg"></image></button>
+  <div class="dropdown-content">
+    <a href="How to treat to wild animals.html">How to treat to wild animals</a>
+    <a href="Protect wild animals health.html">Protect wild animals health</a>
+    <a href="Advantages of wild animals.html">Advantages of wild animals</a>
+  </div>
+
+</div>
+<a href="Pay for.html">Pay for</a>
+
+</div>
+
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<br><br><br>
+<div class="wrapper">
+ <div class="para">
+    <div class="para_member">
+      <div class="para_img">
+        <img src="images/foot sign.png" alt="para_image">
+
+      </div>
+<br><br>
+<p style="text-align:justify; font-family:  'Lato', sans-serif; font-size:15px;"><br>MANY OF THE WILD ANIMALS THAT,<br>come into a wildlife rehabilitator’s care were first brought to veterinary hospitals. Because the care of wildlife is sometimes so different from the care routinely given to domestic animals, we can help by supplying some vital information and suggestions. <br>Regulations and Permits<br>While it’s common for a veterinarian to take in wildlife and provide emergency care, it’s illegal for a veterinarian, veterinary technician, or assistant to do long-term care of the wild animal unless they have obtained a state rehabilitator’s permit. In most states veterinarians and veterinary technicians are allowed to have wildlife in their posses-sion only up to 48 hours, and after that time they are required to turn over the animal to a permit-ted wildlife rehabilitator. Each state has its own set of requirements for becoming a licensed wildlife rehabilitator. A state permit usually allows for the rehabilitation only of small mammals and non-migratory birds. Additionally, the federal Migratory Bird Treaty Act prohibits anyone from keeping portions of any native migratory bird species, such as a feather, nest, or egg, without the proper permit. The state fish and wildlife agency may have additional permit-ting requirements as well. Some exceptions are pigeons, European starlings, English sparrows and game species like wild turkey, ring-necked pheasant, and bobwhite quail. For these birds, you don’t need a federal permit, but there may be individual state restrictions and laws. Some other species, like mute swans and monk parakeets, are considered non-native invasive species and cannot be released in some states. Some raptors have additional protection, as well. Separate permits may be needed to cover reha-bilitating rabies vector species, deer, and some of the larger mammals and raptors, as well as threatened and endangered species. It is illegal in most states to relocate rabies vector species for release. This is meant to mitigate the spread of the disease. However, in some areas of the country vector species may be released in the same or near the location of capture. This varies by state and anyone anticipating work with rabies vector species should consult the local animal con-trol or fish and game office to ensure compliance. Additional permits from the National Marine Fisheries Service are required to treat and reha-bilitate marine mammals and sea turtles. Check with your state’s policies to determine rules for wildlife care. If you are a veterinarian, a veterinary technician, or assistant interested in working with a reha-bilitator, contact your state wildlife agency or department of environmental protection for a list of rehabilitators in the area. When adding names of rehabilitators to your contact list, ask which permits they possess. As soon as the emergency care is performed and stabilization achieved, a rehabilitator should be contacted, and the animal transferred to that rehabilitator. Any wild animal that comes into care will be stressed just from being captured and trans-ported to your facility. The animal needs a dark, warm, quiet, and private space so that he or she can calm down. This may not be easy to provide in a busy veterinary clinic but do the best you can. Caging can be wire cages (not recom-mended for birds) or carriers for adult animals. A plastic storage bin with holes drilled in the lid or an aquarium with a wire cover work well for housing infants and juveniles. Include an extra heat source, such as a heat lamp, brooder, or SnuggleSafe. Provide something for them to hide in or under. soft cloth will work for smaller animals, and for larger ones, a card-board box with a door cut in it. Even just a cloth hung over the cage to cover any openings will help the animals feel safer and less threatened. Noises and bright lights are very frightening and threatening to wild animals, unlike domestic animals who are used to them. It’s important to take this into consideration when handling and housing wild animals. Different species are variably photo-philic or photophobic. Nocturnal animals may prefer a nearly pitch-black enclosure. A photophilic species may prefer a basking spot of warm light, but still require an opaque enclosure to exclude external stimuli. Wound care, fluid therapy, and parasite removal. Some don’t. If your clinic doesn’t, basic evaluations are still greatly appreciated by the rehabilitator receiving the animal. Emergency medical care for wildlife is essen-tially the same as for any animal. The physical exam may be trickier. Prey species, like non-raptor birds and most small mammals, may appear tame and quiet. This is instinctual behavior when compromised to avoid attract-ing predators. The animal may actually be experiencing tremendous psychological stress. Just being held captive can cause enough stress to be life-threatening. Small birds and rabbits can literally die of fright. <br>Basic performance<br>You should start a visual exam as soon as you are in a room with the animal. Continue observ-ing after the animal is placed in the dark, warm, quiet place as treatment for stress. Are there any visible wounds or breaks? Can the animal stand or walk? Do all the limbs seem to be in the right positions? Does the animal seem dazed, dehydrated, malnourished, or weak? It is best if you can observe the animal without the animal knowing. Otherwise, wildlife often feign good health to avoid predatory attention and their condition may be more severe than immediately apparent. Once a wild adult ani-mal begins to act weak or vulnerable, he or she is most likely far more compromised than it appears. <br>Preparations<br>Set up your equipment for a hands-on exam. Have everything you might need readily acces-sible, including clean towels, saline solution, soft cloths, medications, flea treatments, paper towels, and scissors. You don’t want to have to stop the exam to get supplies. The goal is to do a complete and thorough exam with as little handling, noise, and movement as is practical. Checklist for Supplies-clean towels, saline solution, soft cloths, medications, flea treatments, paper towels, scissors<br>Physical performance—Go Slowly<br>It is sometimes necessary to do an exam in sev-eral parts, placing a stressed animal back into can be done is a visual exam, until appropriate physical or chemical restraint can be used. Move slowly and speak softly. Keep movements, noise, and especially talking to a minimum. Make no direct eye contact with the animal as this may be seen as threatening. Avoid strong smelling soaps or perfumes and, when handling birds, avoid hand lotions in order to protect waterproofing. The exam and the confinement of the animal should be done in the quietest possible area of your facility. Cold metal exam tables add to the animal’s stress during the exam. Place a soft cloth or blanket on the table first. If a towel is used, be sure that there aren’t any loops or loose threads that can snag claws and wings. T-shirts, sweatshirts, huck towels, fleece, or baby blankets are ideal. Have more cloths handy to help manage the animal. Cloths can be used to wrap around the animal to hold the animal more securely while he or she is examined or to cover the eyes. This will help to calm the animal. Never leave a wild ani-mal unattended during an exam or treatment. <br>Take Precautions with Restraint<br>Common-sense advice is to protect yourself, and the animal at the same time, by using gloves. Wear rubber gloves when handling any wild animal. Use thick leather gloves for all adult mammals, older juvenile mammals, and big birds. Keep your fingers out of the tips of the gloves. Protect your eyes and neck from birds with long, sharp beaks. Adult birds can be seriously dangerous, but appropriate physical restraint can mitigate the risk. Complete control of the head is possible if When Animals Are Brought to Your Veterinary Facility Performing a Physical performance. Some veterinary clinics have the staff, time, and facilities to do a complete exam and initial emergency care for wild animals, including antibiotics, wound care, fluid therapy, and parasite removal. Some don’t. If your clinic doesn’t, basic evaluations are still greatly appreciated by the rehabilitator receiving the animal. Emergency medical care for wildlife is essen-tially the same as for any animal. The physical exam may be trickier. Prey species, like non-raptor birds and most small mammals, may appear tame and quiet. This is instinctual behavior when compromised to avoid attract-ing predators. The animal may actuallay be experiencing tremendous psychological stress. Just being held captive can cause enough stress to be life-threatening. Small birds and rabbits can literally die of fright. <br>Additional Medical Considerations<br><br>Emergency Conditions and Treatments<br><br>Shock<br>Assume there is some degree of psycho-logical shock in most wild animals that have been brought to you for care. Symptoms of shock may include a drop in body temperature, a fast pulse, shallow breathing, and pale mucous membranes (lips, tongue, and gums). These signs could also indicate internal bleeding. There may be vomiting, weakness, and loss of bowel and bladder control. Physiological shock may result from severe psychological stress, dehydration, hypovolemia, or neurogenic vasodilation. The hallmark of physiological stress is a drop in blood pressure to a potentially lethal low. <br>Treatment: Warm, dark, and quiet are recom-mended. Further treatment may be initiated at the discretion of the veterinary staff. Treatment for physiological shock in wildlife is like that for domestics. A bolus dose of fluid therapy and a non-steroidal anti-inflammatory drug should be implemented if the animal appears in serious condition or may not survive. More dramatic medical intervention may be required based on the physical exam. Even with oiled animals, physiologic stabilization is essential before any decontamination is initiated, often a hard decision when removal of the oil is the most obvious therapy. <br>Dehydration<br>Symptoms of dehydration include sunken eyes, shrunken appearance, loss of skin elasticity, tacky mucous membranes, ropey saliva, and non-responsiveness. <br>Treatment: Restore body fluids according to your clinic’s protocol. Our shortcut works well, too. Refer to the section on birds for a safe way to rehydrate birds. <br>Head Trauma<br>Treatment: Immediate medical treatment for head trauma in wildlife is essentially the same as with domestics. No steroids should be used, and the patient should never be warmed unless severely hypothermic (based on human and animal studies, induced hypothermia decreases cerebral metabolism helping prevent catabolic damage). Head injury patients should always receive supplemental oxygen (this improves oxygenation of damaged central nervous system tissues and helps prevent secondary neuronal injury). The patient should always be placed in a position with the head elevated (which helps reduce intracranial pressure) and pain medications should be administered to increase patient comfort and ensure more normal respiration. Contact a rehabilitator with a veterinary associ-ate and appropriate pharmaceuticals to treat head trauma and arrange to transfer the animal as soon as possible. If the animal can’t be trans-ferred the same day, obtain specific advice from the rehabilitator’s veterinary advisor about what should be done next, and decide for transferring the animal at the first opportunity. Veterinary treatment of head trauma follows the same general rules as in small animals and can be initiated at the discretion of the submitting veterinarian, following consultation with the rehabilitator or the veterinary associate. Moving the animal should be done at the discretion of the veterinarians and rehabilitators involved. <br>Unconsciousness<br>The animal may be unconscious because of a concussion, or from numerous etiologies such as head trauma, hypothermia, starvation, or systemic illness. An animal with a mild head trauma or concussion requires treatment for neurogenic shock and cerebral edema. A more serious concussion may cause trouble with balance and may require treatment with NSAIDs.Handle all unconscious wild animals as though they might become fully conscious any second. <br>Treatment: Treat for neurogenic shock, hypothermia, or the underlying illness. Position the unconscious animal with the head elevated to reduce further inflammation. Supplemental oxygen may be provided as needed. <br>Poisoning<br>Wild animals are subject to both accidental and intentional poisonings. The types of poisons are often impossible to determine. When admitting an animal, try to find out what might be happening in the area in which the animal was found. There may have been chemical lawn treatment done, a homeowner or exterminator may have put poisons outside to eliminate pests, there may be stores of moldy food or grains in the area, or any number of fertilizers or insecticides may have been scattered. Obtain all the information you can. Wear gloves when handling the animal to avoid exposing yourself to the same toxins. <br>Treatment: Specific antidotes are ideal but seldom identifiable. <br>Liquid activated charcoal gavage may help<br>To lessen the effects of some poisons, but not all. Aspirated charcoal will not dissolve and cannot be removed from the lungs or air sacs; it will most likely result in death. Combine this concern with the propensity for birds to defensively regurgitate (especially wading and sea birds) and the risk elevates. Together, these risk factors indicate that charcoal should be used only judiciously. Supportive care may be all that you can offer animals in some cases. <br>Malnutrition or Starvation<br>Adult wildlife brought in with signs of starvation or malnutrition may not have been able to reach a food source or may have an underlying medical reason for their condition. Wild orphan infants who have been without their mothers to provide food for them may be brought to the clinic malnourished or starving. An animal that is malnourished or starving will present a bony appearance, be weak and listless, and will usually be dehydrated as well. <br>Treatment: Rehydrate thoroughly as a first step in treatment. Once the animal is rehydrated, feed small amounts of easily digested foods such as Ensure, Isocal, or critical care formulas used for domestic animals. <br>Progress to easily digested prescription canned foods<br> Treatment: The greatest risk is the possibility of toxicity from parasiticides. Many prepara-tions used for domestic animals may be used in wildlife of similar age. Perform a direct saline smear or flotation on a fecal sample to identify any internal parasite or parasites and treat accordingly. Do not give ivermectin to chelonians, or fenbendazole to doves or porcupines as it can be fatal. <br>Heatstroke or Hypothermia<br>Heatstroke (hyperthermia) may cause an animal to pant, breathe through an open mouth, and have an elevated body temperature. The animal may stagger, convulse, and then collapse. A victim of hypothermia may be sleepy or non-responsive. The body temperature will be well below normal. The animal will feel cold to the touch. Using a rectal thermometer in very small animals can be difficult without the risk of injury, but it is the most objective means of evaluation. References are available for normal body temperatures for various species, and each cannot be precisely described here. However, some general guidelines can be helpful. The larger the species, the lower the normal body temperature. <br>Additional Medical Considerations<br><br>Poisoning<br>Wild animals are subject to both accidental and intentional poisonings. The types of poisons are often impossible to determine. When admitting an animal, try to find out what might be happening in the area in which the animal was found. There may have been chemical lawn treatment done, a homeowner or exterminator may have put poisons outside to eliminate pests, there may be stores of moldy food or grains in the area, or any number of fertilizers or Mute Swan with lead poisoning. And then gradually to a normal substitute diet as suggested in the Sample List of Supplies to Have on Hand in the Appendix. <br>Internal or External Parasites<br>Infestations of parasites in wild animals are often more severe than in domestic animals. You may also see parasite species you would not normally see in a veterinary practice. However, even if the precise species of parasite cannot be determined, appropri-ate treatments may be extrapolated based on similar organisms. Ture will be. Marsupials like opossums typi-cally have lower normal temperatures. Small species almost always are higher. The critical life-threatening considerations are brain damage from hyperthermia and uncon-sciousness from hypothermia. Both may cause additional clinical pathology, but the immediate mortal concerns fall within a narrow range for almost all species. <br>A general guideline is that most species lose consciousness<br>Treatment: If the wild animal presents with symptoms of either, be sure to correct the abnormal temperatures SLOWLY while treat-ing for shock. Alcohol can be applied to the extremities of a hyperthermic animal, and the animal placed in a well-ventilated area. Hot water bottles, heating pads, incubators, and the like can be used to slowly heat hypo-thermic animals. <br>Cat Caught<br>Cat-caught animals need to be treated with antibiotics as soon as possible. The bacteria in cat saliva will result in infection and may cause death if untreated. Bartonella henselae has been determined to be nearly exclusively responsible for cat-scratch disease. Afipia felis and Bartonella clarridgeiae may produce a fraction of cases. <br>Treatment: Any animal that may have been caught by a cat or has been found in an area where there are free-roaming cats, should be treated with antibiotics immediately. Even if there are no visible wounds, there may be tiny invisible puncture wounds. In most cases with a history of a cat involved, it’s best to assume that puncture wounds are present and to administer antibiotics. Antibiotics may have adverse effects as well, so evaluation of each patient and species idiopathic responses should be considered before most antibiotic therapy. Penicillin derivatives may cause toxic gastro-intestinal upset in lagomorphs (rabbits) and many rodents, which are frequent cat bite victims. Where wounds are visible, clean with anti-septic wash such as chlorhexidine or povidone-iodine and flush with copious lavage.<span id="dots">...</span><span id="more">Be careful not to cause hypothermia or hyperthermia especially in animals of minimal body mass. Then give oral or injectable antibiotics (if using injectable antibiotics for birds, dilute 50-50 with saline, to avoid tissue damage at the injection site). Several studies have shown that Clavam ox is the most effective antibiotic for treating cat bites. Recent studies have described the use of long-acting formulations as effective. Care must be taken when dosing very young animals since pro-longed antibiotic use may cause harm during development. <br>Oiled Wildlife<br>If possible, oiled animals should be transferred immediately to a rehabilitator with experience in treating this condition. Transfer the animal to a trained rehabilitator or oiled-wildlife responder. Do not attempt to wash it. When handling any oiled animal, wear appro-priate protective equipment. Appropriate attire would be a Tyvek apron or suit, and nitrile or chemical-resistant gloves. Work should be done in a well-ventilated area to avoid additional health problems to the animal, you, your staff, or other patients. Remember, petroleum-based oils are hazardous waste for both the animal and staff. <br> Rinse water is also legally considered hazardous waste and should not be disposed of down a drain, so do not attempt to wash the animal<br>Treatment: Oiled wildlife, like any compro-mised animal, needs to be stabilized before treatment begins. Treat for stress and psycho-genic shock by placing the animal in a dark, warm, and quiet place. Clean the eyes, mouth and nares or nose with gauze or cotton swabs. Flush the eyes using a warmed standard saline eye solution or buffered eyewash and protect the eyes with medicated or non-medicated eye drops. Never place ointment in the eyes of an oiled animal, as this may trap the oil against the cornea and cause further damage. The internal effects of oil from aspiration, ingestion, or absorption can cause oil toxicosis and is just as life-threatening as the external effects. Gavage with a clear electrolyte solution at about 15 to 20 cc/kg to rehydrate while at the same time flushing some of the ingested oils from the intestines. Then administer K-P antidiarrheal liquid or Pepto-Bismol to sooth the intestines, and to adsorb toxins. Oils will act as laxatives so some diarrhea may be present. Feces can be dropped in water to evaluate the presence of oil; however, this does not check for oil present in the upper GI. <br>Subcutaneous Air<br><br> (Air Bubbles) <br>Subcutaneous crepitus (air bubbles) may appear in traumatized birds, bats, or other species that have been injured, and whose air sacs or lungs have been damaged. The bubbles can be anywhere there has been trauma or may include the whole body. Crepitus is generally nonpathogenic and aseptic, although it may have secondary effects due to pain or obstruction (for example, near the trachea or esophagus). If a subcutaneous bulla exists near the trachea, examine closely to ensure it is not due to a tracheal perforation. <br>Treatment: If obstructive, large, or coalescent air pockets exist, they may be deflated via fine needle aspiration. Puncture may however introduce pathogens into this sterile lesion, so care should be taken to use aseptic or sterile technique. Eventually they will almost always spontaneously resolve on their own. Seal the needle hole with a water-soluble antibiotic cream. Be aware that the bubble may return. Some birds hold and grind their food in the ingluvies (crop), a pregastric dilatation of the esophagus just above the clavicles. The esophagus is usually to the bird’s right of the glottis and continues down the bird’s right side of the trachea. Be sure that what you are seeing is truly an air bubble, and not the crop. A full crop will have food in it and should get smaller as the bird digests the food. An air bubble will be empty of everything but air. It can also be easily palpated to determine when it is full. Force-fed food or liquid should only fill the crop to a soft full consistency or regurgitation may occur and increase the chance of aspiration. <br>Feather Injury<br><br>Blood Feathers and Hemostasis<br>Birds have a very poor intrinsic clotting cas-cade. However, the extrinsic clotting cascade starts with tissue thromboplastin. Clinical relevance is most frequently a concern with sharp laceration injury and traumatized blood feathers. Mature feathers are hollow, devoid of blood and keratinized just like nails or hair. Fracture of a mature feather does not bleed. However, as new feathers emerge from the follicle, they are highly vascularized and full of blood, thus called blood feathers. Blood feathers are most common in fledg-lings with numerous simultaneous feathers developing at once. Adult birds (excluding ducks and geese) tend to molt only a few feathers at a time throughout the year, thus only have one blood feather, or just a few, at any time, but those may be very large in diameter. Ducks and geese can molt all flight feathers at once. Blood feathers have little or no tissue throm-boplastin, therefore when even one large mature bird blood feather is fractured, a bird can become hypovolemic or bleed to death. If a blood feather is hemorrhaging, the bleed-ing must be stopped. Pulling a blood feather is no longer recommended since it can cause damage to the feather follicle and subsequent abnormal feather growth. This is particularly important in primaries, which are crucial for flight. Bleeding can be stopped with styptic powder or by pressure application to the broken feather. Once bleeding is stopped, the end of the injured feather should be trimmed to minimize movement. The poor avian intrinsic clotting cascade is also clinically relevant in relatively atraumatic lacerations. However, injuries are commonly traumatic and sufficient to release the tissue thromboplastin. If bruising exists, clotting is usually sufficient. If a “clean” edge laceration occurs or if a scalpel incision is made, pinching the edges before direct pressure or minor com-pression to the edges may assist hemostasis. <br>Feather Injury and Flight Recovery<br>Protection of critical feathers must be accomplished immediately upon presen-tation of some large birds. Once they have been broken or damaged, it is too late. Mature feathers cannot be repaired. Mature feathers are dead tissue and only removal will stimulate feather regrowth before the normal molting schedule. Tail feathers are critical to predatory bird hunting capability and thus essential to a successful release. Tail feathers are easily damaged when large birds are placed in a small container or enclosure. However, a “splint” can be made for the entire tail with many thin lightweight materials. Radio- graphic film makes an excellent protective splint. A sheet trimmed to the approximate shape of the tail can be attached to the underside of all the tail feathers together. Adhesive tape should seldom be attached directly to feathers and rarely to avian skin. Adhesive tape can stick to feathers and severely damage them when removed and the feathers will not be repaired until the defective feathers are removed. An exception to the above is masking tape and Micropore. Both products do not leave residue so they can be used directly on bird feathers. Roll gauze and non-adhesive tapes such as Vetrap are usually the best choices for avian bandaging. <br>Diagnostic Procedure Considerations<br><br>Radiology<br>Birds of all ages have hollow bones filled with air rather than marrow. Most of the avian abdomen is composed of air sacs. The bones of neonatal mammals and birds are incompletely calcified, compounding contrast challenges. Radiography can be difficult to expose properly, particularly in birds. Many veterinary radio-graph machines cannot provide sufficiently low KVP (peak kilovoltage). Portable large animal extremity radiograph machines, also used in some small animal practices, may not set below 50 KVP.A KVP of 50 or more is far too high for diag-nostic tissue density contrast in all but the large adult birds such as anseriforms (geese, swans, and ducks) raptors (eagles, hawks, owls, and vultures), guiforms (cranes and herons), and many large pelagic oceanic birds. A passerine (songbird), or columbiform (dove and pigeon), may require KVP of 40 or lower to achieve diagnostic radiographs. Fledgling and hatch-lings may require even lower. Juvenile mammals similarly require a low KVP setting but should have minimal air density except in the lungs. <br>Bacterial Diseases. <br>These diseases can be transmitted by contami-nation through broken skin of wounds or abra-sions, accidental ingestion or contamination of the mucous membranes with urine or feces, and sometimes through bruised skin. Treat-ments listed are for both humans and animals. <br>Brucellosis<br>Hosts—White-tailed deer, raccoons, fox, and others. Transmission—By contact with blood, feces, vaginal discharge, tissues, or fetuses of infected animals. Signs—It may appear as septicemia. The source of infection to humans may be from lymph nodes, the spleen, reproductive organs, or joints of affected animals. <br>Treatment—Streptomycin, tetracycline, or sulfonamides. <br>Psittacosis<br>Hosts—Birds, including pigeons, raptors, and finches. Transmission—The infectious agent is found in tissues, droppings, and nasal discharges of infected birds. The most common route of infection to humans is through fecal-oral contamination and inhalation of dried droppings and discharge. Signs—Signs in animals may include respira-tory distress, conjunctivitis, green diarrhea tinged with blood, and emaciation due to decreased appetite. Other birds may be asymptomatic carriers. <br>Treatment—Tetracycline or tetracycline derivatives. <br>Salmonellosis<br>Hosts—Birds, reptiles, and mammals. Transmission—Through fecal contamination, usually fecal-oral contamination. The bacteria may be found in food or water or may live on surfaces that have not been properly cleaned. Signs—In animals the signs are not always as obvious as in humans. When signs are pres-ent, they may include weakness, drowsiness, depression, convulsions, trembling, gasping for air, vomiting, diarrhea, and a slight fever. The shedding period of these bacteria lasts for some time after infection. Some animals can become carriers. In humans, the symptoms are diarrhea and abdominal pain, often resulting in dehydration. <br>Treatment—Treatment can include anti-diarrheals like loperamide (Imodium) to help relieve cramping, but unfortunately these may also prolong diarrhea associated with a salmonella infection. If it is suspected that salmonella bacteria have entered the bloodstream, antibiotics may be prescribed. The patient should be tested, and the treat-ment should be based on the culture and sensitivity of the sample. <br>Leptospirosis<br>Hosts—Raccoons, skunks, opossum, rodents, and other mammals. Transmission—Contact with infected food, water, soil, and especially urine, or direct con-tact with an infected animal. This disease can be transmitted by contact with open wounds, abrasions, or intact skin. Signs—Signs are usually not apparent in ani-mals. In humans, disease is indicated by fever, nausea, chills, muscle pain, vomiting, depres-sion, marked thirst, labored breathing, mild conjunctivitis, kidney infection, fatigue, and diarrhea or constipation. <br>Treatment—Streptomycin and tetracyclines are effective if given early. <br>Tularemia<br>Hosts—Rabbits and rodents. Transmission—Handling infected animals, inhalation of bacteria, contamination of cuts, or mosquito, tick, or fly bites. Symptoms—In humans, one of the symptoms is an ulcer or ulcers on the skin where the organism enters. If the bacteria are inhaled, there may be a pneumonia-like illness. <br>Treatment—Streptomycin or gentamycin. <br>Mycotic Diseases<br>Fungi often found in the environment cause these diseases. Treatments listed are for both humans and animals. <br>Aspergillosis<br>Hosts—Birds, especially raptors and seabirds. Transmission—Infected animals shed spores of the disease that may be inhaled by humans. Seabirds should never be housed on straw or hay since this is a significant source of Aspergillus. Signs—Birds may or may not exhibit respiratory signs. Affected animals may be emaciated and have problems breathing. Wings may droop. People whose health is compromised may become infected and display respiratory symptoms. <br>Treatment—Antifungal drugs including<br>Amphotericin B, Flucytosine, Fluconazole, and Itraconazole. <br>Immunostimulants may also be helpful. Immunocompromised raptors and seabirds are highly susceptible. They should go on prophylactic Itraconazole. <br>Histoplasmosis<br>Hosts—Bats and birds (especially chicken, pigeon, starling, and blackbird droppings). Transmission—Through the inhalation of infective spores. The organisms are present in the soil and may grow in soil that contains decayed bat or bird droppings. This mainly occurs around roost areas that have been established for at least three years. Symptoms—A mild infection will present as a mild upper respiratory infection, with a chronic persistent cough, and weight loss. <br>Treatment—Usually no treatment is needed in the case of a mild acute infection. Severe or chronic cases are treated with one or more antifungal medications, such as Amphotericin, Flucytosine, Fluconazol, and Itraconazole. Specific drug choices and length of treatment will depend on the patient’s overall health and the severity of the disease. <br>Viral Diseases<br><br>Treatments listed are for both humans and animals. <br>Rabies<br>Any wild mammals that come to your facility should be considered potential carriers. When handling a raccoon or skunk infant or even a wild kitten it’s easy to forget that age has no bearing on whether the animal is carrying the virus. To be safe, use standard precautions, and handle all mammals as though they might carry the rabies virus. Hosts—Any warm-blooded mammals. The animals to be most concerned about are raccoons, skunks, foxes, woodchucks, and bats. Squirrels, chipmunks and other rodents, opossums, and rabbits are rarely found to have rabies when brought in for rehabilitation, either because they are resistant to the virus because of body temperatures and metabo-lism, which are not supportive of the virus, or because when attacked by a rabid animal, they seldom survive. Transmission—The virus is transmitted in the saliva of the host animal and may enter the body by introduction of saliva into cuts and abrasions or contact with mucus membranes. Signs—In animals, signs can include restless-ness, aggression, unusual friendliness, lethargy, salivation, ataxia, paralysis, and convulsions. In humans, it may appear as fever, general malaise and eventually paralysis, delirium, and convulsions. <br>Treatment—Exposure in humans is treated by allowing the wound to bleed, with careful and thorough washing of the contaminated area, and then prompt post-exposure treat-ment via a rabies vaccine series. Many people have misconceptions about rabies. It is important for you to know the facts and to be able to calm exaggerated fears. Please see the handouts on Common Misconceptions About Rabies and Solving Wildlife Problems in the Appendix for more information. <br>Parasitic Diseases<br>Treatments listed are for both humans and animals. <br>Roundworm<br>Most ascarids are related to specific definitive hosts. Toxocara canis, Toxocara cati and Toxac-saris leonia are the most common parasites of dogs, cats, and foxes, respectively. Baylisascaris columnaris are commonly found in skunks. Numerous roundworm species, including com-mon canine roundworms, can penetrate intact skin and cause fetal defects and death, adult blindness, and permanent brain damage. It’s important to specifically note the following roundworm as one of the most dangerous:<br>Baylis ascaris Procyonis<br>Hosts—Raccoons. Transmission—Through fecal-oral ingestion of the roundworm eggs, or larval migration through intact skin. Signs—In adult raccoons there is often no sign of infection. Young raccoons may have diarrhea, general malaise, and fussiness. Roundworms may be present in the feces, and ova may be seen on fecal examination. In other animals, irreversible central ner-vous damage and possible death may occur. In humans, the larvae migrate to the eye, brain, and spinal cord. They can cause blindness or damage to the central nervous system, liver, or lungs, and be potentially fatal for unborn as well as adults. Even with treatment, the pathology may remain (blindness, dementia, etc.). Carried by raccoons, Baylisascaris Procyonis is one of the most dangerous roundworms. Transmission—This mite transfers by direct contact during handling. Transmission—Ingestion of soil, food, or water that has been contaminated with the feces from infected humans or animals. People can become infected after accidentally swallowing the parasite. Signs—A variety of intestinal symptoms may include chronic diarrhea, abdominal cramps, bloating, weight loss, and frequent pale stools. <br>Treatment—Metronidazole, tinidazole. <br>Tick-Borne Diseases<br>Treatments listed are for both humans and animals. <br>Lyme Disease<br>Lyme disease is the most common tick-borne disease documented. Hosts—Deer ticks, as well as other ticks. Transmission—The bite of infected ticks. Signs—In animals, the most common sign is an arthritic condition. In humans, an early sign is an expanding bull’s-eye-shaped rash. Later signs include malaise, fatigue, fever, muscle ache, joint pain, headache, a stiff neck, and in humans the symptoms are mainly character-ized by a flu-like illness, fever, headache, myalgia (muscle aches), and thrombocytopenia (abnor-mal destruction of blood platelets). Ehrlichiae infections can be life-threatening. <br>Treatment—Susceptible to tetracyclines or doxycycline.
+<br>Note: Steroids should not be given if this disease is suspected. <br>Euthanasia<br>Euthanasia decisions about incapacitated wild animals must be made according to different standards than those used to make decisions about domestic pets. It is recommended that euthanasia be performed in conformance with the guidelines detailed in the Humane Society of the United States’ Euthanasia Training Manual. Federal requirements for migratory birds specify: You must euthanize any bird who cannot feed itself, perch upright, or ambulate without inflicting additional injuries to itself where medical and/or rehabilitative care will not reverse such conditions. <br>Additional Medical Considerations<br>Treatment—In raccoons, any antiparasitic agent for roundworm may be effective. In other animals and humans, the parasite is not treatable except for some ocular lesions. Ocular lesions may be treated with laser surgery. Some anthelmintic such as albendazole may prevent or treat the infection. Considering the seriousness of this disease and limitations of diagnosis and treatment, prevention of infection is of utmost importance. No one should handle raccoons without protection for intact skin such as exam gloves. Raccoons should not be kept on dirt or porous substrate unless the substrate is later removed and destroyed. <br>Sarcoptic Mange<br>Hosts—Each species has its own species-specific mites, but some can cross-transmit to humans. Sarcoptic mange mites can cross-transmit to humans. Signs—In mammals, the mite causes skin irritation and itching, often with a fur loss. In humans, although there is irritation and itching, the mites will not reproduce, and the infection will resolve in a few weeks. <br>Treatment—In animals, the treatment is Ivermectin. Isolate the animal from other animals. Always handle the animal and its bedding with gloves. Affected humans should consult with their physician to ask about appropriate treatment. <br>Protozoal Diseases<br>Treatments listed are for both humans and animals. <br>Giardiasis<br>This disease is caused by a one-celled parasite. Host—Beaver, muskrat, waterfowl. Lymph node enlargement. Untreated, the disease may cause chronic arthritis, or neu-urological or cardiac problems. The symptoms vary widely. <br>Treatment—doxycycline or amoxicillin. <br>Ehrlichiosis<br>Ehrlichiosis is becoming a more frequently diagnosed tick-borne disease. Host—Deer ticks. Transmission—The bite of infected ticks. Signs—The disease is difficult to diagnose because it may mimic other diseases. The disease suppresses the immune system. Signs in animals include weakness, cough, labored breathing, intermittent fever, arthritis, discharge from nose or eye, increased thirst or urination, anorexia, seizures, nose bleeds, and swelling of the legs or lymph nodes. You must euthanize any bird that is completely blind, and any bird that has sustained injuries that would require amputation of a leg, a foot, or a wing at the elbow or above (humero-ulnar joint) rather than performing such surgery, unless special permits are applied for and granted. Some raptors have strong protec-tive legislation, so local or federal authorities should be consulted. Wild animals must be able to function without help in the wild. If there is any doubt about a decision, call one of the numbers on the advice sheet developed for your clinic (see sample form in the Appendix) and discuss the situation with a person experienced in handling an animal of that species. Sample List of Supplies to Have on Hand<br>Emergency Foods<br>Songbird chicks may be fed: A slurry of warm water and Hill's Prescription Diet a/d canned food, Mazuri nestling diet, Dry puppy or cat chow that has, been soaked in hot water, and cut into tiny pieces. Note: A chick will open its mouth very wide but will have difficulty swallowing and digesting large pieces of food. Older songbirds may be fed: Canned cat and dog food, soaked chow cut into small pieces, small pieces of fruit, A high-quality birdseed, Mealworms. Note: Different species of birds have different dietary preferences. <br>Squirrels and Chipmunks<br>Juveniles and adults may be fed rodent chow, parrot chow with the dried peppers removed, gerbil mix, or a woodpecker mix of birdseed, dried fruits, and nuts. Older squirrels may not recognize rodent chow as a food, but younger ones will eat it if it’s the only thing offered. Rodent chow is nutritionally complete and the best choice to offer if the animal will accept it. They will willingly eat corn and sunflower seeds, but these foods are not good for them and should be used sparingly. Unsweetened Cheerios are a readily available food that is suitable for short-term use with most rodents. <br>Raccoons, Skunks, Foxes, and Other Carnivores<br>These species will eat canned or dry cat or dog food, and mice. Woodchucks and Other Herbivores. These animals may eat rabbit chow, rodent chow, or monkey chow. Adult herbivores may not accept rabbit chow and will have to be fed field greens, deep green leafy vegetables such as spinach or dandelion greens, Queen Anne’s lace, plantain, chickweed, timothy hay, alfalfa, or an assortment of native grasses. Be sure the area from which you are gathering has not been treated with chemicals. Many juvenile or adult mammals or birds that come to your facility will eat Cheerios (unsweetened whole-grain cereal) and cut grapes and apples. These can be great starter foods to get an animal eating. This is by no meansa complete diet and should be used sparingly. <br>Generic Food List<br>Puppy and kitten milk replacers, Caged bird hand feeding formula such as Exact or ZuPreem for doves and pigeons, Mazuri Waterfowl Starter, duck pellets, non-medicated chick, or duck starter. Game bird starter crumbles, Lafeber’s Omnivore Care, Dry puppy chow, Dry cat chow, Canned cat and dog food, Hill's Prescription Diet a/d, Critical Care liquid diet for compromised animals, Rodent chow and monkey chow, Frozen mice or beef heart strips for raptors, Frozen silversides, krill, smelt, or capelinfor water birds, (Note: Fish should be fed whole and not gutted or filleted.) Parrot chow, Rabbit pellets, cracked corn, Mealworms, Mazuri raptor gel, High-quality birdseed, Generic Supply List Caging appropriate for smaller species, Gram scale—digital is easiest to read. Heating pad or light bulb set up for heat source, Incubator, T-shirts or sweatshirts, Baby blankets or towels with no loose threads or loops, Margarine tubs, Disposable gloves, Heavy leather gloves, Teat infusion cannulas, Catac nipples and syringes for feeding, feeding tubes, Cardboard boxes to contain animals or to use as nest boxes, Fish net or other nets for recapture, Common Misconceptions about Rabies. <br>How to Rescue Infant Mammals<br>
+Before rescuing mammals, seek guidance from a wildlife rehabilitator
+1. Prepare a container. Place a soft cloth on the bottom of a cardboard box or cat or dog carrier with a lid. If it doesn’t have air holes, make some. For smaller animals, you can use a paper bag with air holes punched in.
+2. Protect yourself. Wear gloves, if possible. Some animals may bite or scratch to protect themselves, even if sick; wild animals commonly have parasites (fleas, lice, ticks) and carry diseases.
+3. Cover the animal with a light sheet or towel. Removal of visual stimuli can significantly mitigate psychological stress in any species.
+4. Gently pick up the animal and put it in the prepared container. Utilize personal protective gear appropriate for each species.
+5. Warm the animal if it’s cold out or if the animal is chilled. Signs of hypothermia in neonatal mammals include inactivity, closed eyes, curling into a tight fetal position, somnolence (sleepiness), and anorexia. It is important to note that unlike adult mammals, very young mammals may be unable to shiver to elevate their temperature.
+6. Put one end of the container on a heating pad set on low. Extreme care must be taken with any heat pad or lamp as many animals have received thermal injury if they are unable or unwilling to move away from the heat. You may use a chemical hand warmer or fill a soft plastic drink container with a screw lid with hot water; wrap the warm container with cloth and put it next to the animal. Make sure the container doesn’t leak, or the animal will get wet and chilled. A microwave can be used to reheat some containers intermittently so long as room for heat expansion is available in the container or the lid is open. A container with an absorbent such as a wet cloth or paper towel (for example, a zipper-seal plastic bag with wet washcloth) is easy to repeatedly warm in a microwave and is far less likely to leak than a container of water alone.
+7. Hyperthermia can be more lethal than hypothermia. Far more animals are born or hatch in summer than winter. In hot weather be sure to protect the container from direct sun and never leave it in a closed vehicle in the sun. Impress this on the transporter as well. The ideal solution is to include a thermometer in the container and aim for about 85 to 95 degrees Fahrenheit, but also check the substrate directly below the animal, not just the ambient air within the carrier.
+8. Tape the box shut or roll the top of the paper bag closed.
+ 9. Note exactly where you found the animal. This will be very important for release.
+10. Keep the animal in a warm, dark, quiet place. Don’t give it food or water. Leave it alone; don’t handle or bother it. Keep children and pets away.
+11. Contact a wildlife rehabilitator, state wildlife agency, or wildlife veterinarian as soon as possible. Don’t keep the animal at your home longer than necessary. Keep the animal in a container; don’t let it loose in your house or car.
+12. Wash your hands after contact with the animal.
+13.  Wash anything the animal was in contact with—towel, jacket, pet carrier— to prevent the spread of diseases and/or parasites to you or your pets. Mammals are reservoirs for more zoonotic diseases (shared by both man and animals) than birds or reptiles. Many mammalian diseases and parasites may even be lethal to humans and unborn children (ex: Baylisascaris, rabies, toxoplasmosis). Gloves and other protective gear are the best defense from infectious disease or parasites, even if the risk of traumatic injury directly from the animal is minimal.
+14. Get the animal to a wildlife rehabilitator as soon as possible. It’s against the law in most states to keep wild animals if you don’t have permits, even if you plan to release them.
+<br>How to Rescue Baby Birds<br>
+(Before rescuing birds, seek guidance from a wildlife rehabilitator.)
+1. Prepare a container. Place a clean, soft cloth with no strings or loops on the bottom of a cardboard box or cat or dog carrier with a lid. Soft paper towels may also be used and easily changed when soiled and replaced and have no strings to worry about. If it doesn’t have air holes, make some. For smaller birds, you can use a paper bag with air holes. Cloth bags work well and can also be used but should be turned inside out to ensure loose threads are not inside the bag. They are opaque to calm the bird, cooler, and have excellent ventilation as compared with a paper bag or box.
+2. Protect yourself. Wear gloves, if possible. Some birds may stay with their beaks, slice with their talons (claws) and slap with their wings to protect themselves, and if sick, birds commonly have parasites (fleas, lice, ticks) and carry diseases.
+3. Cover the bird with a light sheet or towel, unless already in an opaque cloth bag.
+4. Gently pick up the bird and put it in the prepared container.
+5. Warm the animal if it’s cold out or if the animal is chilled. Signs of hypothermia in birds include inactivity, closed eyes, somnolence (sleepiness), and anorexia. It is important to note that unlike adult mammals, birds seldom shiver when cold. Put one end of the animal’s container on a heating pad set on low. Extreme care must be taken with any heat pad or lamp as many animals have received thermal injury if they are unable or unwilling to move away from the heat. Hypothermic animals are the most prone to thermal injury. They often remain in excessive heat as they warm and exceed normal core body temperature. You may fill a zip-top plastic bag, soft plastic drink container with a screw lid, or a rubber glove with hot water; wrap the warm container with cloth and put it next to the animal. Make sure, Yes or No Leave the area. Call a wildlife Bird is OK.rehabilitator.The container doesn’t leak, or the animal will get wet and chilled. A microwave can be used to reheat the container intermittently so long as room for expansion is available or the top is open. A container with an absorbent such as a wet cloth or paper towels (ex: zipper-seal plastic bag with wet washcloth) is easy to repeatedly warm in a microwave and is far less likely to leak than a container of water alone.
+6. Hyperthermia can be more lethal than hypothermia. Far more animals are born or hatch in summer than winter. In hot weather be sure to protect the container from direct sun and never leave it in a closed vehicle in the sun as well. The ideal solution is to include a thermometer in the container and aim for about 85 to 95 degrees Fahrenheit.
+7. Tape the box shut or roll the top of the paper bag closed or tie the cloth bag so it may be easily untied upon arrival.
+8. Note exactly where you found the bird. This will be very important for release, or if the animal may be returned after the initial exam.
+9. Keep the bird in a warm, dark, quiet place. Don’t give the bird food or water, Leave the bird alone; don’t handle or bother it, Keep children and pets away.
+10. Contact a wildlife rehabilitator, state wildlife agency, or wildlife veterinarian as soon as possible. Don’t keep the bird at your home longer than necessary. Keep the bird in a container; don’t let it loose in your house or car.
+11. Wash your hands after contact with the bird. Wash anything the bird was in contact with—towel, jacket, blanket, pet carrier—to prevent the spread of diseases and/or parasites to you or your pets.
+12. Get the bird to a wildlife rehabilitator as soon as possible. It’s against the law in most states to keep wild animals if you don’t have permits, even if you plan to release them.
+</span><button onclick="myFunction()" id="myBtn">Read more</button></p>
+
+    </div>
+  </div>
+</div>	
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<br><br><br>
+
+
+<div class="footerpart">
+<h3 align="center"><u><img src="images/contact details.jpg" ></img>&nbsp;<h7>Contact Details :</h7> </u></h3>
+<center>
+<h4><img src="images/main office.jpg" ></img>&nbsp;Main Office : </h4>
+
+<h5><img src="images/email.jpg" ></img>&nbsp;&nbsp;<h7>Mail Us :</h7> <a href="mailto:dheerandarinku@gmail.com">dheerandarinku@gmail.com</a></h5>
+<h5><img src="images/call.jpg" ></img>&nbsp;&nbsp;<h7>Call Now :</h7> <a href="callto:94465657623244">+94-465-657-623-244</a></h5>
+<h6><h7>Join with Us on:</h7> <img src="images/fb.jpg" ></img>&nbsp;&nbsp; <a href="https://m.facebook.com" style="color:blue;">https://www.facebook.com/YalaPark/</a> &nbsp;
+<img src="images/twitter.jpg" ></img>&nbsp;&nbsp;<a href="https://mobile.twitter.com/" style="color:blue;">https://mobile.twitter.com/yalaslanlk</a>&nbsp;<img src="images/whatsapp.jpg" ></img>&nbsp;&nbsp;<a href="www.whatsapp.com" style="color:blue;" >tel:+948567865</a>&nbsp;<img src="images/instergram.jpg" ></img>&nbsp;&nbsp;<a href="https:www.instergram.com/" style="color:blue;" >https://www.instagram.com/Yala_wildlife/</a>&nbsp;
+
+</h6>
+
+
+
+
+
+
+
+</center>
+<center><h7>2022 All Rights Reserved.Sri lankan Institute of Technology</h7></center>
+</div>
+
+
+
+
+ </body>
+</html>

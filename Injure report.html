@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>injure report page</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:250px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text], select{
+width:250px;
+height:40px;
+font-size:30px;
+
+}
+input[type=checkbox]{
+margin-right:330px;
+
+}
+input[type=submit]{
+
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:24px;
+}
+p2{
+
+font-size:40px;
+}
+</style>
+	
+</head>
+
+
+<body>
+<h1>Report damages that occurs to wild animals to wildlife office.</h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p2>Please fill in this form to report injuries and diseases.</p2></center>
+
+	<form method="POST" action="injure report.php">
+<br><br>
+		<label>Wildanimal injured place:</label> <input type="text" name="place"><br><br>
+                <label>The time when it is occured:</label> <input type="time" name="time"><br><br>
+<label>The date which it is occured:</label> <input type="date" name="date"><br><br>
+<label>Name of the wild animal that the injurey was occured:</label> <input type="text" name="animal"><br><br>
+<label>Number of wildanimals are injured:</label> <input type="number" min="1" max="1000" name="count" ><br><br>
+<label>Complain person name:</label> <input type="text" name="name"><br><br>
+<label>Complain person contact number:</label> <input type="tel" name="contact"><br><br>
+<label>Complain person email address:</label> <input type="email" name="email"><br><br>
+<label>Injured reason in brief:</label> <input type="text" name="reason"><br><br>
+<label>The way you know that injure in brief:</label> <input type="text" name="knownway"><br><br>
+<p>**I accept the the details which are entered above all are correct.:<input type="checkbox" name="policyandterms"></p>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Report">
+
+	</form><br>
+<img src="images/turtle injury.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/bear injury.jpg" width="656" height="300">
+<center><p>Always Do things to protect wild animals.</p></center>
+
+</body>
+</html>

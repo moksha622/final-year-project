@@ -1,0 +1,516 @@
+<html>
+<html lang="en">
+ <head>
+ <link rel="stylesheet" type="text/css" href="test.css"></link>
+
+ <style>
+
+body {
+  font-family: "Lato", sans-serif;
+padding: 0;
+margin: 0;
+background: #81c644;
+}
+.image-container {
+  background-image: url("images/elephant.jpeg");
+  background-size: cover;
+  position: relative;
+  height: 120px;
+}
+
+.text {
+  background-color: #d1dd93;
+  color: black;
+  font-size: 4vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 8px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.dropbtn {
+ 
+  color: #818181;
+  background:none;
+  font-size: 25px;
+  border: none;
+transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown a{
+padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.wrap{
+width:1300px;
+margin-left:49px;
+
+
+}
+.card{
+
+
+width:300px;
+background:#fff;
+text-align:center;
+font-size:16px;
+font-familiy:sans-serif;
+float:left;
+margin-right:10px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  
+
+}
+.card:hover{
+
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+padding: 2px 16px;
+}
+
+.wrapper{
+  margin-top: 5%;
+}
+
+
+.para{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.para .para_member{
+  background: #f4eecc;
+  margin: 5px;
+  margin-bottom: 10px;
+  width: 1300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+color:#889429;
+}
+
+
+
+.para .para_member p.role{
+  color: #ccc;
+  
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.para .para_member .para_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.para .para_member .para_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+.background {
+  background-image: url("images/give medicine.jpg");
+}
+.background2 {
+  background-color:#6d6d15;
+}
+.background3 {
+  background-image: url("images/leapord cubs medicine.jpg");
+}
+.background4 {
+  background-color:#d2dab2;
+}
+.hero-image {
+  
+  height: 24%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+margin-left:50px;
+margin-right:50px;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h4{
+background:none;
+text-align:center;
+padding: 14px 16px;
+margin-left:550px;
+margin-right:550px;
+margin-top:50px;
+margin-bottom:50px;
+color: white;
+}
+h5{
+background:none;
+text-align:center;
+padding: 10px 16px;
+margin-left:500px;
+margin-right:500px;
+margin-top:50px;
+margin-bottom:50px;
+}
+h6{
+background:none;
+text-align:center;
+padding: 14px 16px;
+text-size:40px;
+margin-top:50px;
+margin-bottom:50px;
+
+}
+h7{
+
+background:none;
+color:white;
+
+font-family: Arial;
+font-size: 30px;
+margin-bottom:20px;
+}
+div.footerpart{
+background-image:url("images/footer background.jpg");
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+color:black;}
+
+
+
+
+
+
+.header{
+margin-left: 20px;
+width: 92%;
+background-color: rgba(0,0,0,.2);
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+padding: 30px;
+text-shadow: 2px 1px 5px black;}
+
+#more {display: none;}
+
+</style>
+ </head>
+
+ <body>
+<center>
+<div class="image-container">
+  <div class="text">Udawalawe</div>
+</div>
+</center>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Wild life healthcare for sri lanka website.html">Home</a>
+  <a href="About us.html">About us</a>
+  <a href="For your knowledge.html">For your knowledge</a>
+  
+<div class="dropdown">
+  <button class="dropbtn"><a>Things to do</a><image src="images/drop.jpg"></image></button>
+  <div class="dropdown-content">
+    <a href="How to treat to wild animals.html">How to treat to wild animals</a>
+    <a href="Protect wild animals health.html">Protect wild animals health</a>
+    <a href="Advantages of wild animals.html">Advantages of wild animals</a>
+  </div>
+
+</div>
+<a href="Pay for.html">Pay for</a>
+
+</div>
+
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<br><br>
+ <div class ="wrap">
+
+<div class ="card">
+<img src ="images/udawalawe card 1.jpg" alt ="elephant" style ="width:100%">
+<div class ="container">
+<p style="font-family: ariel; font-size: 30px;"><b>Mammals</b></p>
+<center><a href="Udawalawe mammals.html" style="text-decoration: none; color:black; font-family: Times New Roman; font-size: 40px; border: 1px solid black;"><b>EXPLORE</b></a></center>
+</div>
+</div>
+
+<div class ="card">
+<img src ="images/udawalawe card 2.jpg" alt ="elephant" style ="width:100%">
+<div class ="container">
+<p style="font-family: ariel; font-size: 30px;"><b>Birds</b></p>
+<center><a href="Udawalawe birds.html" style="text-decoration: none; color:black; font-family: Times New Roman; font-size: 40px; border: 1px solid black;"><b>EXPLORE</b></a></center>
+</div>
+</div>
+
+<div class ="card">
+<img src ="images/udawalawe card 3.jpg" alt ="elephant" style ="width:100%">
+<div class ="container">
+<p style="font-family: ariel; font-size: 30px;"><b>Amphibians</b></p>
+<center><a href="Udawalawe amphibians.html" style="text-decoration: none; color:black; font-family: Times New Roman; font-size: 40px; border: 1px solid black;"><b>EXPLORE</b></a></center>
+</div>
+</div>
+
+
+<div class ="card">
+<img src ="images/udawalawe card 4.jpg" alt ="elephant" style ="width:100%">
+<div class ="container">
+<p style="font-family: ariel; font-size: 30px;"><b>Reptiles</b></p>
+<center><a href="Udawalawe reptiles.html" style="text-decoration: none; color:black; font-family: Times New Roman; font-size: 40px; border: 1px solid black;"><b>EXPLORE</b></a></center>
+</div>
+</div>
+</div> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="wrapper">
+
+ 
+
+  <div class="para">
+    <div class="para_member">
+      <div class="para_img">
+        <img src="images/foot sign.png" alt="para_image">
+
+      </div>
+<br><br>
+      <p style="text-align:justify; font-family:  'Lato', sans-serif; font-size:15px;">Yala National Park is Sri Lanka’s most visited and second largest national park situated close to Hambantota. Yala was designated as a wildlife sanctuary in 1990 and covers approximately 979 square kilometers of ground area. Yala consists of 215 species of birds out of which 7 species are endemic to Sri Lanka. It harbors 44 species of mammals and has one of the highest densities of leopards in the world. Two important pilgrimage sites namely, Sithulpahuwa and Magul Vihara are situated within the Yala National Park.<span id="dots">...</span><span id="more">Yala National Park is Sri Lanka’s most visited and second largest national park situated close to Hambantota. Yala was designated as a wildlife sanctuary in 1990 and covers approximately 979 square kilometers of ground area. Yala consists of 215 species of birds out of which 7 species are endemic to Sri Lanka. It harbors 44 species of mammals and has one of the highest densities of leopards in the world. Two important pilgrimage sites namely, Sithulpahuwa and Magul Vihara are situated within the Yala National Park....
+</span><button onclick="myFunction()" id="myBtn">Read more</button></p>
+
+    </div>
+  </div>
+</div>	
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<br>
+<div class="background4">
+<br>
+<div class="background">
+<br>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:23px">For outside people use</h1>
+    <p style="font-size:21px; font-family: 'Slabo 27px/13px', serif; text-align:center;">If you want to go safaries,do payments to safaries,report wild animal injury,donate money to wild animal health please click any of four links which are provide below in here.</p>
+    </div>
+</div>
+<br>
+
+<br>
+<div class="header">
+<a href="View safari booking.html" style="text-decoration: none; font-family: Georgia, serif; color:#d1fd8c; font-size: 31px; margin-right: 75px;"><b>|Safari book|</b></a>&nbsp;
+<a class="two" href="Safari view payment.html" style="text-decoration: none; color:orange; font-family: Georgia, serif; font-size: 31px; margin-right: 75px;"><b>|Safari payment|</b></a>&nbsp;&nbsp;
+<a href="Injure report.html" style="text-decoration: none; font-family: Georgia, serif; color:#d1fd8c; font-size: 31px; margin-right: 75px;"><b>|Injure report|</b></a>&nbsp;
+<a class="two" href="Money donate.html" style="text-decoration: none; color:orange; font-family: Georgia, serif; font-size: 31px;"><b>|Money donate|</b></a>&nbsp;&nbsp;
+
+
+
+</div>
+<br>
+</div>
+<br>
+<div class="background3">
+<br>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:23px">For wildlife people use</h1>
+    <p style="font-size:21px; font-family: 'Slabo 27px/13px', serif; text-align:center;">For wildlife workers to add wild animals' medicine and medical equipment,request wild animals' medicine and equipment please click any of four links which are provide below in here.</p>
+    </div>
+</div>
+<br>
+
+<br>
+<div class="header">
+<a href="Add medicine login.html" style="text-decoration: none; font-family: Georgia, serif; color:#d1fd8c; font-size: 31px; margin-right: 12px;"><b>|Add medicine|</b></a>&nbsp;
+<a class="two" href="Add equipment login.html" style="text-decoration: none; color:orange; font-family: Georgia, serif; font-size: 31px; margin-right: 13px;"><b>|Add equipment|</b></a>&nbsp;&nbsp;
+<a href="Medicine request login.html" style="text-decoration: none; font-family: Georgia, serif; color:#d1fd8c; font-size: 31px; margin-right: 13px;"><b>|Request medicine|</b></a>&nbsp;&nbsp;
+<a href="Medicine request login.html" style="text-decoration: none; font-family: Georgia, serif; color:#d1fd8c; font-size: 31px;"><b>|Request equipment|</b></a>&nbsp;&nbsp;
+
+</div>
+<br>
+
+
+
+</div>
+<br>
+</div>
+</div>
+<div class="wrapper">
+<div class="para">
+    <div class="para_member">
+      <div class="para_img">
+        <img src="images/foot sign.png" alt="para_image">
+      </div>
+<br><br>
+      <p style="text-align:justify; font-family: 'Lato', sans-serif; font-size:15px;"><center>Yala map</center><br>Yala National Park is Sri Lanka’s most visited and second largest national park situated close to Hambantota. Yala was designated as a wildlife sanctuary in 1990 and covers approximately 979 square kilometers of ground area. Yala consists of 215 species of birds out of which 7 species are endemic to Sri Lanka. It harbors 44 species of mammals and has one of the highest densities of leopards in the world. Two important pilgrimage sites namely, Sithulpahuwa and Magul Vihara are situated within the Yala National Park.<span id="dots">...</span><span id="more">Yala National Park is Sri Lanka’s most visited and second largest national park situated close to Hambantota. Yala was designated as a wildlife sanctuary in 1990 and covers approximately 979 square kilometers of ground area. Yala consists of 215 species of birds out of which 7 species are endemic to Sri Lanka. It harbors 44 species of mammals and has one of the highest densities of leopards in the world. Two important pilgrimage sites namely, Sithulpahuwa and Magul Vihara are situated within the Yala National Park....
+
+
+    </div>
+  </div>
+</div>	
+
+
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6546966017904!2d80.88643891426634!3d6.438373725934554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1644057987677!5m2!1sen!2slk" width="1000" height="200" style="border:#f4eecc solid 90px; margin-left:90px; margin-right:77px;"  allowfullscreen="" loading="lazy"></iframe></p>
+<div class="footerpart">
+<h3 align="center"><u><img src="images/contact details.jpg" ></img>&nbsp;<h7>Contact Details :</h7> </u></h3>
+<center>
+<h4><img src="images/main office.jpg" ></img>&nbsp;Main Office : </h4>
+
+<h5><img src="images/email.jpg" ></img>&nbsp;&nbsp;<h7>Mail Us :</h7> <a href="mailto:dheerandarinku@gmail.com">dheerandarinku@gmail.com</a></h5>
+<h5><img src="images/call.jpg" ></img>&nbsp;&nbsp;<h7>Call Now :</h7> <a href="callto:94465657623244">+94-465-657-623-244</a></h5>
+<h6><h7>Join with Us on:</h7> <img src="images/fb.jpg" ></img>&nbsp;&nbsp; <a href="https://m.facebook.com" style="color:blue;">https://www.facebook.com/YalaPark/</a> &nbsp;
+<img src="images/twitter.jpg" ></img>&nbsp;&nbsp;<a href="https://mobile.twitter.com/" style="color:blue;">https://mobile.twitter.com/yalaslanlk</a>&nbsp;<img src="images/whatsapp.jpg" ></img>&nbsp;&nbsp;<a href="www.whatsapp.com" style="color:blue;" >tel:+948567865</a>&nbsp;<img src="images/instergram.jpg" ></img>&nbsp;&nbsp;<a href="https:www.instergram.com/" style="color:blue;" >https://www.instagram.com/Yala_wildlife/</a>&nbsp;
+
+</h6>
+
+
+
+
+
+
+
+</center>
+<center><h7>2022 All Rights Reserved.Sri lankan Institute of Technology</h7></center>
+</div>
+
+
+
+
+ </body>
+</html>

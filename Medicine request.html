@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>medicine request page</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:250px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text], select{
+width:250px;
+height:40px;
+font-size:30px;
+
+}
+input[type=checkbox]{
+margin-right:330px;
+
+}
+input[type=submit]{
+
+width:480px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:30px;
+}
+p2{
+font-size:30px;
+color:red;
+}
+</style>
+	
+</head>
+
+
+<body>
+<h1>Order by send and request for additional medicine that not in your wildanimal medicine store.</h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p>Please fill in this form to order and get the medicine which is want to you.</p></center>
+
+	<form method="POST" action="medicine request.php">
+<br>
+		<label><p2>medicine's--></p2><br>Name:</label> <input type="text" name="name"><br><br>
+                <label>Reason for need of medicine:</label> <input type="text" name="reason"><br><br>
+<label>Disease or iniury where the required medicine is used:</label> <input type="text" name="way"><br><br>
+<label>Wildlife sanctuary or wildlife place the medicine is needed:</label> <input type="text" name="place"><br><br>
+<label>Date required for medicine:</label> <input type="date" name="date" ><br><br>
+<label>Time required for medicine:</label> <input type="time" name="time"><br><br>
+<label>Required quantity:</label> <input type="number" min="1" max="1000" name="quantity"><br><br>
+<label>contact number of the place were  this medicine need:</label> <input type="tel" name="contact"><br><br>
+<label>email address of the place were  this medicine need:</label> <input type="email" name="email"><br><br>
+<label>Item number details of required medicine:</label> <input type="number" min="1" max="1000" name="item"><br><br>
+<p>**I accept the the details all are correct.:<input type="checkbox" name="policyandterms"></p>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Order medicine">
+
+	</form><br>
+<img src="images/squarrel medicine.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/bird medical 4.jpeg" width="656" height="300">
+<center><p>Always Do things to protect wild animals.</p></center>
+
+</body>
+</html>

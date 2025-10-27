@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>add equipment page</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:250px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text], select{
+width:250px;
+height:40px;
+font-size:30px;
+
+}
+input[type=checkbox]{
+margin-right:330px;
+
+}
+input[type=submit]{
+
+width:480px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:30px;
+}
+p2{
+font-size:30px;
+color:red;
+}
+</style>
+	
+</head>
+
+
+<body>
+<h1>Add details of wild animals' medical equipment items to system for ease of wildlife health related activities.</h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p>Please fill in this form to add details of medical equipments to the system.</p></center>
+
+	<form method="POST" action="add equipment.php">
+<br>
+		<label><p2>equipment's--></p2><br>Name:</label> <input type="text" name="name"><br><br>
+                <label>Reason for use:</label> <input type="text" name="reason"><br><br>
+<label>Way of using Or how to use it:</label> <input type="text" name="way"><br><br>
+<label>Date of uploading information about equipment:</label> <input type="date" name="date"><br><br>
+<label>contact number of the place were  this equipment is available:</label> <input type="tel" min="1" name="contact"><br><br>
+<label>email address of the place were  this equipment is available:</label> <input type="email" name="email"><br><br>
+<label>Name of the place where the Wildlife Health Office is located where the medicine is stored:</label> <input type="text" name="place"><br><br>
+<label>Quantity:</label> <input type="number" min="1" max="1000" name="quantity"><br><br>
+<label>How the equipment should be transporte:</label> <input type="text" name="transport"><br><br>
+<label>Item number:</label> <input type="number" min="1" max="1000" name="item"><br><br>
+<p>**I accept the the details all are correct.:<input type="checkbox" name="policyandterms"></p><br><br>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Add equipment details">
+
+	</form><br>
+<img src="images/leapord net.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/leapord medical.jpg" width="656" height="300">
+<center><p>Always Do things to protect wild animals.</p></center>
+
+</body>
+</html>

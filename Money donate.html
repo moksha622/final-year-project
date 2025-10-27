@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>money donte page</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:250px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text], select{
+width:250px;
+height:40px;
+font-size:30px;
+
+}
+input[type=checkbox]{
+margin-right:330px;
+
+}
+input[type=submit]{
+
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:30px;
+}
+p2{
+font-size:30px;
+color:red;
+}
+
+</style>
+	
+</head>
+
+
+<body>
+<h1>Donate money for wildlife healthcare.</h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p>Please fill in this form to donate money for wildl animals' health and security.</p></center>
+
+	<form method="POST" action="money donate.php">
+<br>
+		<label><p2>Doner's--></p2><br>Full name:</label> <input type="text" name="name"><br><br>
+                <label>Contact number:</label> <input type="tel" name="contact"><br><br>
+<label>Email:</label> <input type="email" name="email"><br><br>
+<label>Address line 1:</label> <input type="text" name="firstline"><br><br>
+<label>Address line 2:</label> <input type="text" name="secondline"><br><br>
+<label>City:</label> <input type="text" name="city"><br><br>
+<label>Amount of donate:</label> <input type="tel" name="amount"><br><br>
+<label>Donate method:</label><select id ="method" name="method">
+<option value ="Android pay">Android pay</option>
+<option value ="Apple pay">Apple pay</option>
+<option value ="Ali pay">Ali pay</option>
+<option value ="Bank transfer">Bank transfer</option>
+<option value ="Credit or debit card">Credit or debit card</option>
+<option value ="Cash">Cash</option>
+<option value ="Easy pay">Easy pay</option>
+<option value ="Visa checkout">Visa checkout</option>
+<option value ="Web money">Web money</option>
+<option value ="Real time bank transfer">Real time bank transfer</option>
+<option value ="Western Union">Western Union</option>
+<option value ="Mobile banking">Mobile banking</option>
+<option value ="Other bank in sri lanka">Other bank in sri lanka</option>
+</select><br><br>
+<label>Donate date:</label> <input type="date" name="date"><br><br>
+<label>Donate type:</label><select id ="type" name="type"><br><br>
+<option value ="One time donation">One time donation</option><br><br>
+<option value ="give monthly">give monthly</option>
+<option value ="give yearly">give yearly</option>
+</select><br><br>
+<p>**I accept the the details all are correct.:<input type="checkbox" name="policyandterms"></p>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Donate">
+
+	</form><br>
+<img src="images/cub feed.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/animal help.jpg" width="656" height="300">
+<center><p>Always Do things to protect wild animals.</p></center>
+
+</body>
+</html>

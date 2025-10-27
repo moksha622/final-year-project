@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Safari hotel booking payments</title>
+<style type="text/css">
+form{
+padding-top:10px;
+text-align:center;
+font-size:30px;
+margin-left:30px;
+
+}
+input{
+width:380px;
+height:40px;
+font-size:30px;
+
+
+}
+
+input[type=text],select{
+width:430px;
+height:40px;
+font-size:30px;
+
+}
+
+
+input[type=checkbox]{
+margin-right:160px;
+
+}
+input[type=submit]{
+
+width:580px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+input[type=reset]{
+margin-right:100px;
+width:250px;
+height:60px;  
+font-size:40px;
+text-align:center;
+}
+
+label{
+width:250px;
+display: inline-block;
+}
+
+body{
+background-color:#d1dd93;
+}
+
+h1{
+text-align:center;
+background-color:#6d6d15;
+font-size:75px;
+}
+p{
+font-size:24px;
+}
+p1{
+font-size:30px;
+}
+p2{
+font-size:30px;
+color:red;
+}
+
+
+
+</style>
+	
+</head>
+
+
+<body>
+<h1>Holiday Hotel payments booking Form </h1>
+<img src="images/foot sign.png" style="float: left; width:100px;">
+<img src="images/foot sign.png" style="float: right; width:100px;">
+<center><p1>Do payments To our bank account from fill by submit following form.</p1></center><br>
+<center><p1>This is the payment form that relevant to the  our package that valid for all our holiday view booking.</p1></center><br>
+<center><p1>Please fill in this hotel payment reservation form to pay for enjoy with animals during your safari.
+</p1></center>
+	<form method="POST" action="safari view payment.php">
+		<label><p2>Payer's--></p2><br>Firstname:</label> <input type="text" name="firstname"><br><br>
+                <label>Lastname:</label> <input type="text" name="lastname"><br><br>
+<label>Email:</label> <input type="email" name="email"><br><br>
+<label>Telephone:</label> <input type="tel" name="telephone"><br><br>
+<label>Gender:</label><select id ="gender" name="gender">
+<option value ="Male"> Male</option>
+<option value ="Female">Female </option>
+</select><br><br>
+<label>Dob:</label> <input type="date" name="dob"><br><br>
+<label>Biling address:</label> <input type="text" name="address"><br><br>
+<label><p2>Accountholder's--></p2><br>Fullname:</label> <input type="text" name="holderfullname"><br><br>
+<label>Email:</label> <input type="email" name="holderemail"><br><br>
+<label>Telephone:</label> <input type="tel" name="holdertelephone"><br><br>
+<label>Bank branch situation country:</label><select id ="branch" name="branch">
+<option value ="Afghanistan">Afghanistan</option>
+<option value ="Albania">Albania</option>
+<option value ="Algeria">Algeria</option>
+<option value ="Andorra">Andorra</option>
+<option value ="Angola">Angola</option>
+<option value ="Antigua and Barbuda">Antigua and Barbuda</option>
+<option value ="Argentina">Argentina</option>
+<option value ="Armenia">Armenia</option>
+<option value ="Australia">Australia</option>
+<option value ="Austria">ustria</option>
+<option value ="Azerbaijan">Azerbaijan</option>
+<option value ="Bahamas">Bahamas</option>
+<option value ="Bahrain">Bahrain</option>
+<option value ="Bangladesh">Bangladesh</option>
+<option value ="Barbaods">aBrbaods</option>
+<option value ="Belarus">Belarus</option>
+<option value ="Belgium">Belgium</option>
+<option value ="Belize">Belize</option>
+<option value ="Benin">Benin</option>
+<option value ="Bhutan">Bhutan</option>
+<option value ="Bolivia">Bolivia</option>
+<option value ="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+<option value ="Botswana">Botswana</option>
+<option value ="Brazil">Brazil</option>
+<option value ="Brunei">Brunei</option>
+<option value ="Bulgaria">Bulgaria</option>
+<option value ="Burkina Faso">Burkina Faso</option>
+<option value ="Burundi">Burundi</option>
+<option value ="Co^te d^lvoire"C>o^te d^lvoire</option>
+<option value ="Cabo Verde">Cabo Verde</option>
+<option value ="Cambodia">Camboida</option>
+<option value ="Cameroon">Cameroon</option>
+<option value ="Canada">Canada</option>
+<option value ="Central African Republic">Central African Republic</option>
+<option value ="Chad">Chad</option>
+<option value ="Chile">Chile</option>
+<option value ="China">China</option>
+<option value ="Colombia">Colombia</option>
+<option value ="Comoros">Comoros</option>
+<option value ="Congo">Congo</option>
+<option value ="Costa Rica">Costa Rica</option>
+<option value ="Croatia">Croatia</option>
+<option value ="Cuba">Cuba</option>
+<option value ="Cyprus">Cyprus</option>
+<option value ="Czech Republic">Czech Republic</option>
+<option value ="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
+<option value ="Denmark">Denmark</option>
+<option value ="Djibouti">Djibouti</option>
+<option value ="Dominica">Dominica</option>
+<option value ="Dominican Republic">Dominican Republic</option>
+<option value ="Ecuador">cEuador</option>
+<option value ="Egypt">Egypt</option>
+<option value ="El Salvador">El Salvador</option>
+<option value ="Equatorial Guinea">Equatorial Guinea</option>
+<option value ="Eritrea">Eritrea</option>
+<option value ="Estonia">Estonia</option>
+<option value ="Eswatini">Eswatini</option>
+<option value ="Ethiopia">Ethiopia</option>
+<option value ="Fiji">Fiji</option>
+<option value ="Finland">Finland</option>
+<option value ="France">France</option>
+<option value ="Gabon">Gabon</option>
+<option value ="Gambia">Gambia</option>
+<option value ="Georgia">Georgia</option>
+<option value ="Germany">Germany</option>
+<option value ="Ghana">Ghana</option>
+<option value ="Greece">Greece</option>
+<option value ="Grenada">Grenada</option>
+<option value ="Guatemala">Guatemala</option>
+<option value ="Guinea">Guinea</option>
+<option value ="Guinea-Bissau">Guinea-Bissau</option>
+<option value ="Guyana">Guyana</option>
+<option value ="Haiti">Haiti</option>
+<option value ="Holy See"H>oly See</option>
+<option value ="Honduras"H>onduras</option>
+<option value ="Hungary">Hungary</option>
+<option value ="Iceland">Iceland</option>
+<option value ="India">India</option>
+<option value ="Indonesia">Indonesia</option>
+<option value ="Iran">Iran</option>
+<option value ="Iraq">Iraq</option>
+<option value ="Ireland">Ireland</option>
+<option value ="Israel">Israel</option>
+<option value ="Italy">Italy</option>
+<option value ="Jamaica">Jamaica</option>
+<option value ="Japan">Japan</option>
+<option value ="Jordan">Jordan</option>
+<option value ="Kazakhstan">Kazakhstan</option>
+<option value ="Kenya">Kenya</option>
+<option value ="Kiribati">Kiribati</option>
+<option value ="Kuwait">Kuwait</option>
+<option value ="Kyrgzstan">Kyrgzstan</option>
+<option value ="Laos">Laos</option>
+<option value ="Latvia">Latvia</option>
+<option value ="Lebanon">Lebanon</option>
+<option value ="Lesotho">Lesotho</option>
+<option value ="Liberia">Liberia</option>
+<option value ="Libya">Libya</option>
+<option value ="Liechtenstein">Liechtenstein</option>
+<option value ="Lithuania">Lithuania</option>
+<option value ="Luxembourg">Luxembourg</option>
+<option value ="Madagascar">Madagascar</option>
+<option value ="Malawii">aMlawii</option>
+<option value ="Malasyia">Malaysia</option>
+<option value ="Maldives">Maldives</option>
+<option value ="Mali">Mali</option>
+<option value ="Malta">Malta</option>
+<option value ="Marshall Islands">Marshall Islands</option>
+<option value ="Mauritania">Mauritania</option>
+<option value ="Mauritius">Mauritius</option>
+<option value ="Mexico">Mexico</option>
+<option value ="Micronesia">Micronesia</option>
+<option value ="Moldova">Moldova</option>
+<option value ="Monaco">Monaco</option>
+<option value ="Mongolia">Mongolia</option>
+<option value ="Montenegro">Montenegro</option>
+<option value ="Morocco">Morocco</option>
+<option value ="Mozambique">Mozambique</option>
+<option value ="Myanmar">Myanmar</option>
+<option value ="Namibia">Namibia</option>
+<option value ="Nauru">Nauru</option>
+<option value ="Nepal">Nepal</option>
+<option value ="Netherlands">Netherlands</option>
+<option value ="New Zealand">New Zealand</option>
+<option value ="Nicaragua">Nicaragua</option>
+<option value ="Niger">Niger</option>
+<option value ="Nigeria">Nigeria</option>
+<option value ="North Korea">North Korea</option>
+<option value ="North Macedonia">North Macedonia</option>
+<option value ="Norway">Norway</option>
+<option value ="Oman">Oman</option>
+<option value ="Pakistan">Pakistan</option>
+<option value ="Palau">Palau</option>
+<option value ="Palestine tate">Palestine tate</option>
+<option value ="Panama">Panama</option>
+<option value ="Papua New Guinea">Papua New Guinea</option>
+<option value ="Paraguay">Paraguay</option>
+<option value ="Peru">Peru</option>
+<option value ="Philippines">Philippines</option>
+<option value ="Poland">Poland</option>
+<option value ="Portugal">Portugal</option>
+<option value ="Qatar">Qatar</option>
+<option value ="Romania">Romania</option>
+<option value ="Russia">Russia</option>
+<option value ="Rwanda">Rwanda</option>
+<option value ="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+<option value ="Saint Lucia">Saint Lucia</option>
+<option value ="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+<option value ="Samoa">Samoa</option>
+<option value ="San Marino">San Marino</option>
+<option value ="Sao Tome and Principe">Sao Tome and Principe</option>
+<option value ="Saudi Arabia">Saudi Arabia</option>
+<option value ="Senegal">Senegal</option>
+<option value ="Serbia">Serbia</option>
+<option value ="Seychelles">Seychelles</option>
+<option value ="Sierra Leone">Sierra Leone</option>
+<option value ="Singapore">Singapore</option>
+<option value ="Slovakia">Slovakia</option>
+<option value ="Slovenia">Slovenia</option>
+<option value ="Solomon Islands">Solomon Islands</option>
+<option value ="Somalia">Somalia</option>
+<option value ="South Africa">South Africa</option>
+<option value ="South Korea">South Korea</option>
+<option value ="South Sudan">South Sudan</option>
+<option value ="Spain">Spain</option>
+<option value ="Sri Lanka">Sri Lanka</option>
+<option value ="Sudan">Sudan</option>
+<option value ="Suriname">Suriname</option>
+<option value ="Sweden">Sweden</option>
+<option value ="Switzerland">Switzerland</option>
+<option value ="Syria">Syria</option>
+<option value ="Tajikistan">Tajikistan</option>
+<option value ="Tanzania">Tanzania</option>
+<option value ="Thailand">Thailand</option>
+<option value ="Timor-Leste">Timor-Leste</option>
+<option value ="Togo">Togo</option>
+<option value ="Tonga">Tonga</option>
+<option value ="Trinidad and Tobago">Trinidad and Tobago</option>
+<option value ="Tunisia">Tunisia</option>
+<option value ="Turkey">Turkey</option>
+<option value ="Turkmenistan">Turkmenistan</option>
+<option value ="Tuvalu">Tuvalu</option>
+<option value ="Uganda">Uganda</option>
+<option value ="Ukraine">Ukraine</option>
+<option value ="United Arab Emirates">United Arab Emirates</option>
+<option value ="United Kingdom">United Kingdom</option>
+<option value ="United States of America">United States of America</option>
+<option value ="Uruguay">Uruguay</option>
+<option value ="Uzbekistan">Uzbekistan</option>
+<option value ="Vanuatu">Vanuatu</option>
+<option value ="Venezuela">Venezuela</option>
+<option value ="Vietnam">Vietnam</option>
+<option value ="Yemen">Yemen</option>
+<option value ="Zambia">Zambia</option>
+<option value ="Zimbabwe">Zimbabwe</option>
+</select><br><br>
+<label>Payment date:</label><input type="date" name="paydate"><br><br>
+<label><p2>Bank account or Credit card--></p2><br>Name:</label> <input type="text" name="name"><br><br>
+                <label>Number:</label> <input type="tel" name="number"><br><br>
+<label>Security code:</label><input type="text" name="securitycode"><br><br>
+<label>How did you pay:</label><select id ="paytype" name="paytype">
+<option value ="Android pay">Android pay</option>
+<option value ="Apple pay">Apple pay</option>
+<option value ="Ali pay">Ali pay</option>
+<option value ="Bank transfer">Bank transfer</option>
+<option value ="Credit or debit card">Credit or debit card</option>
+<option value ="Cash">Cash</option>
+<option value ="Easy pay">Easy pay</option>
+<option value ="Visa checkout">Visa checkout</option>
+<option value ="Web money">Web money</option>
+<option value ="Real time bank transfer">Real time bank transfer</option>
+<option value ="Western Union">Western Union</option>
+<option value ="Mobile banking">Mobile banking</option>
+<option value ="Other bank in sri lanka">Other bank in sri lanka</option>
+</select><br><br>
+<label>Type of credit or debit card:</label><select id ="card" name="card">
+<option value ="Visa">Visa</option>
+<option value ="Master card">Master card</option>
+<option value ="AMEX">AMEX</option>
+<option value ="Discover">Discover</option>
+<option value ="Other card">Other card</option>
+<option value ="I'm not paying from using a credit or debit card">I'm not paying from using a credit or debit card
+</option>
+</select><br><br>
+<label><p2>Select number of guests will stay in hotel--></p2><br>
+Adults :</label><input type="number" min="0" max="1000" name="adults"><br><br>
+<label>Youngers</label><input type="number" min="0" max="1000" name="youngers"><br><br>
+<label>Childrens</label><input type="number" min="0" max="1000" name="childrens"><br><br>
+<label>Total number of guests have:</label> <input type="number" min="0" max="1000" name="totalguests"><br><br>
+<label>Select amount for vehicles that you wish to use in the jungle:</label><select id ="vehicleamount" name="vehicleamount">
+<option value ="Open 4WD vehicles">Open 4WD vehicles-2000RS</option>
+<option value ="Closed 4WD vehicles">Closed 4WD vehicles-2500RS</option>
+<option value ="Light Aircraft">Light Aircraft-2600RS</option>
+<option value ="4 wheel drive jeep">4 wheel drive jeep-3000RS</option>
+<option value ="Canter">Canter-3100RS</option>
+<option value ="Open and Closed 4WD vehicles-4500RS">Open and Closed 4WD vehicles-4500RS</option>
+<option value ="Open 4WD vehicles+Light Aircraft-4600RS">Open 4WD vehicles+Light Aircraft-4600RS</option>
+<option value ="Open 4WD vehicles+4 wheel drive jeep-500RS">Open 4WD vehicles+4 wheel drive jeep-500RS</option>
+<option value ="Open 4WD vehicles+canter-5100RS">Open 4WD vehicles+canter-5100RS</option>
+<option value ="Closed 4WD vehicles+Light Aircraft-5100RS">Closed 4WD vehicles+Light Aircraft-5100RS</option>
+<option value ="Closed 4WD vehicles+4 wheel drive jeep-4500RS">Closed 4WD vehicles+4 wheel drive jeep-4500RS</option>
+<option value ="Closed 4WD vehicles+Canter-5600RS">Closed 4WD vehicles+Canter-5600RS</option>
+<option value ="Light Aircraft+4 wheel drive jeep-5600RS">Light Aircraft+4 wheel drive jeep-5600RS</option>
+<option value ="Light Aircraft+Canter-5700RS">Light Aircraft+Canter-5700RS</option>
+<option value ="4 wheel drive jeep+Canter-6100RS">4 wheel drive jeep+Canter-6100RS</option>
+<option value ="All">All</option>
+</select><br><br>
+<label>Select amounts for cameras you need when we provide you with the camera facilities you need at biosecure curve:</label><select id ="cameraamount" name="cameraamount">
+<option value ="Action camera-1200RS">Action camera-1200RS</option>
+<option value ="Waterproof digital camera-1500RS">Waterproof digital camera-1500RS</option>
+<option value ="Digital camera with optical-1600RS">Digital camera with optical-1600RS</option>
+<option value ="DSLR-1700RS">DSLR-1700RS</option>
+<option value ="Action camera+Waterproof digital camera-2700RS">Action camera+Waterproof digital camera-2700RS</option>
+<option value ="Action camera+Digital camera with optical-2800RS">Action camera+Digital camera with optical-2800RS</option>
+<option value ="Action camera+DSLR-2900RS">Action camera+DSLR-2900RS</option>
+<option value ="Waterproof digital camera+Digital camera with optical-3100RS">Waterproof digital camera+Digital camera with optical-3100RS</option>
+<option value ="Waterproof digital camera+DSLR-3200RS">Waterproof digital camera+DSLR-3200RS</option>
+<option value ="Digital camera with optical+DSLR-3300RS">Digital camera with optical+DSLR-3300RS</option>
+</select><br><br>
+<label>Select amounts for biosecure curve hygienic water bottels and snacks you need:</label><select id ="foodamount" name="foodamount">
+<option value ="Cool lemon juice bottle+Nuts-600RS">Cool lemon juice bottle+Nuts-600RS</option>
+<option value ="Cool milk bottle+Seeds-800RS">Cool milk bottle+Seeds-800RS</option>
+<option value ="Cool orange juice bottle+Grains-900RS">Cool orange juice bottle+Grains-900RS</option>
+<option value ="Cool lemon juice bottle+Nuts+Cool milk bottle+Seeds-1400RS">Cool lemon juice bottle+Nuts+Cool milk bottle+Seeds-1400RS</option>
+<option value ="Cool lemon juice bottle+Nuts+Cool orange juice bottle+Grains-1500RS">Cool lemon juice bottle+Nuts+Cool orange juice bottle+Grains-1500RS</option>
+<option value ="Cool milk bottle+Seeds+Cool orange juice bottle+Grains-1700RS">Cool milk bottle+Seeds+Cool orange juice bottle+Grains-1700RS></option>
+</select><br><br>
+<label>Select amounts for special types of activities in the jungle:</label><select id ="activityamount" name="activityamount">
+<option value ="Watch heard of animals">Watch heard of animals-3000RS</option>
+<option value ="Watch special bird fly">Watch special bird fly-5000RS</option>
+<option value ="Watch sunset">Watch sunset-2000RS</option>
+<option value ="Watch sunrise">Watch sunrise-2500RS</option>
+<option value ="Watch heard of animals+Watch special bird fly">Watch heard of animals+Watch special bird fly-8000RS</option>
+<option value ="Watch heard of animals+Watch sunset">Watch heard of animals+Watch sunset-5000RS</option>
+<option value ="Watch heard of animals+Watch sunrise">Watch heard of animals+Watch sunrise-5500RS</option>
+<option value ="Watch special bird fly+Watch sunset">Watch special bird fly+Watch sunset-7000RS</option>
+<option value ="Watch special bird fly+Watch sunrise">Watch special bird fly+Watch sunrise-7500RS</option>
+<option value ="Watch sunset+Watch sunrise">Watch sunset+Watch sunrise-4500RS</option>
+</select><br><br>
+<label>Total amount of pay in figures:</label> <input type="tel" name="fullpay"><br><br>
+<label>Total amount of pay in words:</label> <input type="text" name="paytext"><br><br>
+<p>**I agree to payment  of the total amount of this bill.:<input type="checkbox" name="information"></p>
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;<input type="submit" value="Pay for your hotel">
+</form><br>
+<img src="images/safari 1.jpg" width="656" height="300">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/safari 2.jpg" width="656" height="300">
+</body>
+</html>
