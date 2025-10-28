@@ -30,10 +30,10 @@
 
 .bodypart .imagepart
 {
-	width:500px;
+	width:900px;
 	height:500px;
         background-image:url('tech.jpg');
-        background-repeat:no-repeat;
+       
 	display:inline-block;
 
 }
@@ -73,4 +73,5 @@
 	font-family: Calibri;
 	font-style: normal;
 }
+
 	
