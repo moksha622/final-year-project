@@ -115,7 +115,7 @@ Online payment gateway integration
 ## 📬 Contact
 📧 Email: mokshahiggoda@gmail.com
 📞 Phone: +94 768 983 080
-🌐 Portfolio: https://moksha622.github.io/My-Portfolio/
+🌐 Portfolio: https://github.com/moksha622/final-year-project.git
 ⭐ Support
 
 ## If you like this project:
